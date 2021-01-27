@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item android:id="@+id/nav_vegetable"
+            android:icon="@drawable/ic_grass"
+            android:title="Vegetables"/>
+        <item android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Category's"/>
+        <item android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_planning"
+            android:title="My Plan"/>
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings">
+            </item>
+            <item android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About Us">
+            </item>
+        </menu>
+    </item>
+</menu>
