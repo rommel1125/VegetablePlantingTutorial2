@@ -36,8 +36,10 @@
         android:layout_marginTop="27dp"/>
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
         android:fillViewport="true"
         android:padding="16dp"
         android:layout_below="@+id/imageView">
@@ -49,7 +51,18 @@
             android:textSize="24sp">
         </TextView>
 
-
     </ScrollView>
+
+    <Button
+        android:id="@+id/tutorialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="-60dp"
+        android:layout_below="@id/scrollView"
+        android:layout_centerHorizontal="true"/>
+
 
 </RelativeLayout>

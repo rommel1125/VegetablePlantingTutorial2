@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vegetableplantingtutorial">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,9 +10,10 @@
         android:roundIcon="@mipmap/ic_vege_plant_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VegetablePlantingTutorial">
+        <activity android:name=".TutorialActivity" android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".ListdataActivity"
-            android:parentActivityName=".ListdataActivity"/>
+            android:parentActivityName=".ListdataActivity" />
         <activity
             android:name=".MainActivity"
             android:label="Vegetable Planting"
