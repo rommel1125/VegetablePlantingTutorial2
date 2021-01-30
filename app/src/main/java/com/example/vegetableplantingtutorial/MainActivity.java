@@ -6,11 +6,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,20 +29,22 @@ import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.tabs.TabItem;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DatabaseHelper myDb;
-     DrawerLayout drawer;
+    DrawerLayout drawer;
+    int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.pechay,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.monggo,R.drawable.upo,R.drawable.ampalaya};
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
-        myDb = new DatabaseHelper(this);
         super.onCreate(savedInstanceState);
+        myDb = new DatabaseHelper(this);
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -60,7 +66,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             navigationView.setCheckedItem(R.id.nav_home);
         }
 
-
+        //update vegetable image in the database
+//        for(int i = 0; i < vegeImages.length; i++) {
+//            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), vegeImages[i]);
+//            String id = String.valueOf(i+1);
+//            myDb.updateVegetableImage(id, bitmap);
+//        }
     }
 
     @Override
@@ -78,8 +89,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_category:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new CategoryFragment()).commit();
+                openCategoryActivity();
                 break;
 
             case R.id.nav_plan:
@@ -111,6 +121,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
+    public void openCategoryActivity() {
+
+        Intent intent = new Intent(this, CategoryActivity.class);
+        startActivity(intent);
+
+    }
 
 
 }

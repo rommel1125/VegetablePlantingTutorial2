@@ -2,32 +2,73 @@ package com.example.vegetableplantingtutorial;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
+
+import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback;
+
+import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 import static android.content.ContentValues.TAG;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "Vegetable.db";
+
     public static final String TABLE_NAME = "Vegetable_table";
-    public static final String COL_1 = "ID";
-    public static final String COL_2 = "NAME";
-    public static final String COL_3 = "DESCRIPTION";
-    public static final String COL_4 = "VEGEIMAGE";
+    public static final String COL_1 = "ID";                            //  0
+    public static final String COL_2 = "NAME";                          //  1
+    public static final String COL_3 = "DESCRIPTION";                   //  2
+    public static final String COLUMN_VEGETABLE_URL = "VEGETABLE_URL";  //  3
+    public static final String COLUMN_CATEGORY_FK = "category_id";      //  4
+    public static final String COLUMN_VEGETABLE_IMAGE = "image";        //  5
+
+
+    public static final String CATEGORY_TABLE = "categories";
+    public static final String CATEGORY_ID = "id";
+    public static final String CATEGOR_NAME = "name";
+
+
+    public static final String ALTER_VEGETABLE_TABLE_1 = "ALTER TABLE " + TABLE_NAME + " ADD COLUMN " +
+            "" + COLUMN_VEGETABLE_URL + " TEXT";
+    public static final String ALTER_VEGETABLE_TABLE_2 = "ALTER TABLE " + TABLE_NAME + " ADD COLUMN " +
+            "" + COLUMN_CATEGORY_FK + " INTEGER";
+    public static final String ADD_IMAGE_COLUMN = "ALTER TABLE " + TABLE_NAME + " ADD COLUMN " + COLUMN_VEGETABLE_IMAGE + " BLOB";
+
+    public static final String CREATE_CATEGORY_TABLE = "CREATE TABLE IF NOT EXISTS " +
+            "" + CATEGORY_TABLE + " " +
+            "("+ CATEGORY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+            ""+ CATEGOR_NAME +" TEXT)";
+
+
+    public static final int SCHEMA_VERSION = 4;
+
+    Context cont;
+
+    private ByteArrayOutputStream byteArrayOutputStream;
+    private byte[] byteArray;
 
     public DatabaseHelper(@Nullable Context context) {
-        super(context, DATABASE_NAME, null, 1);
+        super(context, DATABASE_NAME, null, SCHEMA_VERSION);
+        cont = context;
         SQLiteDatabase db = this.getWritableDatabase();
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE Vegetable_table (ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, DESCRIPTION TEXT) ");
+        db.execSQL("CREATE TABLE IF NOT EXISTS Vegetable_table (ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "" + COL_2 + " TEXT, " +
+                "" + COL_3 + " TEXT)");
 
         db.execSQL("INSERT INTO "+TABLE_NAME+" (NAME,DESCRIPTION) VALUES " +
                 "('Eggplant','Eggplant, Solanum melongena, is a tropical, herbaceous, perennial plant, closely related to tomato, in the family Solanaceae which is grown for its edible fruit. The plants has a branching stem and simple, long, flat. coarsely lobed leaves which are green in color and are arranged alternately on the branches. The leaves can measure 10 to 20 cm (4–8 in) long and 5 to 10 cm (2–4 in) broad. The plant produces purple flowers which are 3–5 cm (1.2–2.0 in) in diameter. The fruit is a large, fleshy ovoid berry which can reach 40 cm (15.7 in) in length, with glossy smooth skin and numerous small seeds. The color of the fruit is variable and can be white, green, yellow, purple or black. Eggplants can reach up to 1.5 m (4.9 ft) in height and although they are perennial plants, they are most commonly grown as annuals. Eggplant may also be referred to as aubergine or guinea squash and originates from the Indian subcontinent.\n" +
@@ -86,18 +127,130 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "Nutritional Value:\n" +
                 "Bottle gourd is low in calories and provides small amounts of vitamin C, folate, calcium, iron, zinc and B vitamins. It is also rich in fiber and is believed to help aid in healthy digestion. The juice of Bottle gourd is touted for its vitamin C and zinc content as well as for its ability to potentially regulate blood sugar levels. In India the juice is popularly consumed as a health benefiting beverage. Caution should be used however as to never consume Bottle gourd juice that has developed a bitter flavor as it may contain toxins that can cause ulcers, extreme harm to the digestive track and in some cases even fatality.')," +
                 "('Bitter Gourd','Bitter gourd (Momordica charantia) is one of the world’s major vegetable crops, which belongs to the family Cucurbitaceae. The genus Momordica is a native of the Paleotropics and comprises about 60 species. Bitter gourd grows in tropical and subtropical areas, including parts of East Africa, Asia, the Caribbean, and South America, where it is used not only as a food but also as a medicine. Two botanical varieties viz., var. charantia synonymous with large-fruited cultivated Chinese bitter melon and var. muricata representing small-fruited, predominantly wild forms were recognized. Wide variability was noticed especially among cultivated types for fruit and seed morphology. The plant is monoecious, annual climber with long-stalked leaves and yellow, solitary male and female flowers borne on the leaf axils. The warty and oblong or elliptical-shaped fruit is botanically a ‘pepo.’ The plant grows well in a variety of soils and begins flowering about one month after planting. It is used as a food, bitter flavoring, and medicine. Bitter gourd has a relatively high nutritional value due to high iron and ascorbic acid content. Indians have traditionally used the leaves and fruits as a medicine to treat diabetes, colic, and to heal skin sores and wounds. Bitter gourd is reported to possess antioxidant, antimicrobial, antiviral, and antidiabetic properties.')");
+
     }
+
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME);
+//        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME);
+        if(oldVersion < 2) {
+            db.execSQL(ALTER_VEGETABLE_TABLE_1);
+        }
+        if(oldVersion < 3) {
+            db.execSQL(CREATE_CATEGORY_TABLE);
+            db.execSQL(ALTER_VEGETABLE_TABLE_2);
+        }
+        if(oldVersion < 4) {
+            db.execSQL(ADD_IMAGE_COLUMN);
+            Log.d("Success: ", "Successfully added image column in vegetables table!");
+        }
+
         onCreate(db);
     }
+
+    public VegetableModel fetchVegetableById(String id) {
+
+        VegetableModel vegetable = null;
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " +
+                TABLE_NAME + "." + COL_1 + ", " +   //  vegetable id
+                TABLE_NAME + "." + COL_2 + ", " +   //  vegetable name
+                TABLE_NAME + "." + COL_3 + ", " +   //  vegetable description
+                TABLE_NAME + "." + COLUMN_VEGETABLE_URL + ", " +
+                TABLE_NAME + "." + COLUMN_CATEGORY_FK + ", " +
+                CATEGORY_TABLE + "." + CATEGOR_NAME + ", " +
+                TABLE_NAME + "." + COLUMN_VEGETABLE_IMAGE +
+                " FROM " + TABLE_NAME +
+                " LEFT JOIN " + CATEGORY_TABLE +
+                " ON " +
+                TABLE_NAME + "." + COLUMN_CATEGORY_FK + " = " + CATEGORY_TABLE + "." + CATEGORY_ID +
+                " WHERE " + TABLE_NAME + "." + COL_1 + " = ?";
+
+        Cursor result = db.rawQuery(query, new String [] { id });
+
+        if(result.moveToFirst()) {
+            int vegetableId = result.getInt(0);
+            String name = result.getString(1);
+            String description = result.getString(2);
+            String tutorialURI = result.getString(3);
+            int categoryId = result.getInt(4);
+            String categoryName = result.getString(5);
+
+            byte [] imageByte = result.getBlob(6);
+            Bitmap vegetableImage = BitmapFactory.decodeByteArray(imageByte, 0, imageByte.length);
+            vegetable = new VegetableModel(vegetableId, name, description, tutorialURI, categoryId, categoryName, vegetableImage);
+        }
+        return vegetable;
+    }
+
+
+    public ArrayList<VegetableModel> fetchVegetableByCategory(String category_id) {
+
+        ArrayList<VegetableModel> vegetables = new ArrayList<>();
+        VegetableModel model;
+
+        try {
+
+            SQLiteDatabase db = this.getReadableDatabase();
+            String query = "SELECT "+ COL_1 +", "+ COL_2 +" FROM " + TABLE_NAME + " WHERE " + COLUMN_CATEGORY_FK + " = ?";
+            Cursor result = db.rawQuery(query, new String[] { category_id });
+
+            while(result.moveToNext()) {
+                int id = result.getInt(result.getColumnIndex(COL_1));
+                String name = result.getString(result.getColumnIndex(COL_2));
+//                String description = result.getString(result.getColumnIndex(COL_3));
+//                String uri = result.getString(result.getColumnIndex(COLUMN_VEGETABLE_URL));
+//
+//                byte [] imageByte = result.getBlob(result.getColumnIndex(COLUMN_VEGETABLE_IMAGE));
+//                Bitmap image = BitmapFactory.decodeByteArray(imageByte, 0, imageByte.length);
+
+                model = new VegetableModel(id, name, null, null, 0, null, null);
+                vegetables.add(model);
+            }
+            db.close();
+        }
+        catch(Exception e) {
+            Log.d("Error", e.toString());
+        }
+
+        return vegetables;
+    }
+
+
+    public ArrayList<CategoryModel> fetchCategories() {
+
+        ArrayList<CategoryModel> categories = new ArrayList<>();
+        CategoryModel category;
+
+        String query = "SELECT * FROM " + CATEGORY_TABLE + " WHERE " +
+                CATEGORY_ID + " < 5";
+
+        try {
+
+            SQLiteDatabase db = this.getReadableDatabase();
+            Cursor result = db.rawQuery(query, null);
+
+            while(result.moveToNext()) {
+
+                category = new CategoryModel(result.getString(0), result.getString(1));
+                categories.add(category);
+            }
+            db.close();
+        }
+        catch(Exception e) {
+            Log.d("Error", e.toString());
+        }
+
+        return categories;
+    }
+
 
     public boolean addData(String name, String des){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(COL_2,name);
-        contentValues.put(COL_3,des);
+        contentValues.put(COL_2, name);
+        contentValues.put(COL_3, des);
 
         Log.d(TAG, "addData: Adding "+name+" to "+TABLE_NAME);
         long result = db.insert(TABLE_NAME, null, contentValues);
@@ -108,11 +261,149 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
         }
     }
+
     public Cursor getData(int id){
         SQLiteDatabase db = this.getWritableDatabase();
 //        String query = "SELECT "+COL_3+" FROM "+TABLE_NAME+" WHERE "+COL_1+" = "+id;
-        String query = "SELECT * FROM "+TABLE_NAME+" WHERE "+COL_1+" = "+id;
+        String query = "SELECT "+COL_1+", "+COL_2+", "+COL_3+", "+COLUMN_VEGETABLE_URL+" FROM "+TABLE_NAME+" WHERE "+COL_1+" = "+id;
         Cursor cursor = db.rawQuery( query,null);
         return cursor;
+    }
+
+    public void inputTutorialURL() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cv;
+        Helper h = new Helper();
+
+        for(int i = 0; i < 10; i++) {
+
+            cv = new ContentValues();
+            cv.put(COLUMN_VEGETABLE_URL, h.getUri(i+1));
+            db.update(TABLE_NAME, cv, "ID=?", new String[] { String.valueOf(i+1) });
+        }
+
+        db.close();
+    }
+
+    public void populateCategoryTable() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(CATEGOR_NAME, "JAN - MAR");
+        db.insert(CATEGORY_TABLE, null, cv);
+
+        cv = new ContentValues();
+        cv.put(CATEGOR_NAME, "APR - JUN");
+        db.insert(CATEGORY_TABLE, null, cv);
+
+        cv = new ContentValues();
+        cv.put(CATEGOR_NAME, "JUL - SEP");
+        db.insert(CATEGORY_TABLE, null, cv);
+
+        cv = new ContentValues();
+        cv.put(CATEGOR_NAME, "OCT - DEC");
+        db.insert(CATEGORY_TABLE, null, cv);
+
+        Log.d("TAG", "Category Populated");
+
+        db.close();
+    }
+
+    public void updateVVegetableCategory() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cv;
+//        Jan - Mar =   1
+//        Apr - Jun =   2
+//        Jul - Sep =   3
+//        Oct - Dec =   4
+
+
+//        1-Eggplant    =   2
+//        2-Kamatis     =   3
+//        3-Pechay      =   1
+//        4-Sitaw       =   3
+//        5-Squash      =   2
+//        6-malunggay   =   1
+//        7-kangkong    =   2
+//        8-munggo      =   2
+//        9-upo         =   4
+//        10-ampalaya   =   4
+
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "2");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "1" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "3");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "2" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "1");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "3" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "3");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "4" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "2");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "5" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "1");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "6" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "2");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "7" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "2");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "8" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "4");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "9" });
+
+        cv = new ContentValues();
+        cv.put(COLUMN_CATEGORY_FK, "4");
+        db.update(TABLE_NAME, cv, "ID=?", new String[] { "10" });
+
+        db.close();
+    }
+
+    public void updateVegetableImage(String vegetableId, Bitmap image) {
+
+        if(vegetableId == null)
+            return;
+
+        try {
+
+            SQLiteDatabase db = this.getWritableDatabase();
+            ContentValues cv = new ContentValues();
+
+            byteArrayOutputStream = new ByteArrayOutputStream();
+            image.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
+            byteArray = byteArrayOutputStream.toByteArray();
+
+            cv.put(COLUMN_VEGETABLE_IMAGE, byteArray);
+            if(vegetableId != null) {
+                long result = db.update(TABLE_NAME, cv, "ID=?", new String[] { vegetableId });
+
+                if(result != -1) {
+                    Log.d("Success", "Updated the image of VEGETABLE_ID = " + vegetableId);
+                    db.close();
+                }
+                else {
+                    Log.d("Error", "Could not update the vegetable image");
+                }
+
+            }
+            db.close();
+        }
+        catch(Exception e) {
+            Toast.makeText(cont, e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
 }
