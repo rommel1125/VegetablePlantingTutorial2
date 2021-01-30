@@ -95,7 +95,7 @@ public class MainFragment extends Fragment {
                 //Put extra payload on the intent
                 intent.putExtra("name", vegetables.get(position).getName());
                 intent.putExtra("id23", String.valueOf(vegetables.get(position).getId()));
-                int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.pechay,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.monggo,R.drawable.upo,R.drawable.ampalaya};
+                int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.repolyo,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.lettuce,R.drawable.upo,R.drawable.ampalaya};
                 int v_id = vegetables.get(position).getId();
                 intent.putExtra("image", vegeImages[v_id - 1]);
 

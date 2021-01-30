@@ -9,52 +9,52 @@ public class Helper {
 
 //              Talong (Eggplant)
             case 1:
-                uri = "https://www.youtube.com/watch?v=13xAS6ebfBk";
+                uri = "https://youtu.be/dHDKdczU2_U";
                 break;
 
 //                Tomato (Kamatis)
             case 2:
-                uri = "https://www.youtube.com/watch?v=dHS9O49JGj8";
+                uri = "https://youtu.be/eySTo2GgvoY";
                 break;
 
-//                Bok choy (Pechay)
+//                Cabbage (Repolyo)
             case 3:
-                uri = "https://www.youtube.com/watch?v=OcLfCIT0q4A";
+                uri = "https://youtu.be/TS_yDySB92s";
                 break;
 
 //                String beans (Sitaw)
             case 4:
-                uri = "https://www.youtube.com/watch?v=hf9M2tpioYg";
+                uri = "https://youtu.be/j6AUtQuMBME";
                 break;
 
 //                Squash (Kalabasa)
             case 5:
-                uri = "https://www.youtube.com/watch?v=rg4GItxtj_E";
+                uri = "https://youtu.be/dERQ_XwQtrY";
                 break;
 
-//                Horseradish (Malunggay)
+//                Moringa Leaves (Malunggay)
             case 6:
-                uri = "https://www.youtube.com/watch?v=liFdBSrM62Q";
+                uri = "https://youtu.be/liFdBSrM62Q";
                 break;
 
-//                Spinach (Kangkong)
+//                Water Spinach (Kangkong)
             case 7:
-                uri = "https://www.youtube.com/watch?v=q9dFCCDUCCI";
+                uri = "https://youtu.be/q9dFCCDUCCI";
                 break;
 
-//                Mung beans (Munggo)
+//                Lettuce (Letsugas)
             case 8:
-                uri = "https://www.youtube.com/watch?v=z_XzC4mO-IE";
+                uri = "https://youtu.be/VMH0ut0Ory4";
                 break;
 
 //                Bottle gourd (Upo)
             case 9:
-                uri = "https://www.youtube.com/watch?v=Q6jQ5ZvoDt0";
+                uri = "https://youtu.be/Q6jQ5ZvoDt0";
                 break;
 
 //                Bitter gourd (Ampalaya)
             case 10:
-                uri = "https://www.youtube.com/watch?v=5vvQyruajQk";
+                uri = "https://youtu.be/5vvQyruajQk";
                 break;
 
         }
