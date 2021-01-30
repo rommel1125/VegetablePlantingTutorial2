@@ -23,7 +23,7 @@ import androidx.fragment.app.Fragment;
 
 public class VegetablesFragment extends Fragment {
     ListView listView;
-    String[] vegeName = {"Eggplant\n(Talong)","Tomato\n(Kamatis)","Bok choy\n(Pechay)","String Beans\n(Sitaw)","Squash\n(Kalabasa)","Horseradish\n(Malunggay)","Spinach\n(Kangkong)","Mung Beans\n(Monggo)","Bottle gourd\n(Upo)","Bitter gourd\n(Ampalaya)"};
+    String[] vegeName = {"Eggplant\n(Talong)","Tomato\n(Kamatis)","Cabbage\n(Repolyo)","String Beans\n(Sitaw)","Squash\n(Kalabasa)","Horseradish\n(Malunggay)","Spinach\n(Kangkong)","Mung Beans\n(Monggo)","Bottle gourd\n(Upo)","Bitter gourd\n(Ampalaya)"};
     int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.pechay,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.monggo,R.drawable.upo,R.drawable.ampalaya};
     String[] number = {"1","2","3","4","5","6","7","8","9","10"};
     DatabaseHelper db;
