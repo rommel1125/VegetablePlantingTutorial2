@@ -110,7 +110,7 @@
             {
                 "step_name" : "STEP 3",
                 "process" : "Label your container. If you are fermenting several different types of seeds, be sure to label the container with the correct variety to avoid any mix-ups. Set the lid on top of the container but do not seal it to allow oxygen to reach the pulp.",
-                "step_image" : "default_step_image"
+                "step_image" : "tomato_step3"
             },
             {
                 "step_name" : "STEP 4",
@@ -150,7 +150,7 @@
             {
                 "step_name" : "STEP 11",
                 "process" : "Purchase plastic peat pots or similar small pots for growing seedlings. You can find these pots at your local nursery or garden supply store.\n",
-                "step_image" : "tomato_11"
+                "step_image" : "tomato_step11"
             },
             {
                 "step_name" : "STEP 12",
