@@ -97,9 +97,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new PlanFragment()).commit();
                 break;
 
-            case R.id.nav_settings:
-                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
-                break;
+//            case R.id.nav_settings:
+//                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
+//                break;
             case R.id.nav_about:
                 Toast.makeText(this, "About Us", Toast.LENGTH_SHORT).show();
                 break;
