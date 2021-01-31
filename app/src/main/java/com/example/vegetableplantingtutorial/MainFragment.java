@@ -14,6 +14,10 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
 import java.util.ArrayList;
 
 /**
@@ -78,8 +82,9 @@ public class MainFragment extends Fragment {
 
         //Get Vegetables by category
         String category_id = getArguments().getString("id");
-        DatabaseHelper db = new DatabaseHelper(getActivity());
-        ArrayList<VegetableModel> vegetables = db.fetchVegetableByCategory(category_id);
+
+//        DatabaseHelper db = new DatabaseHelper(getActivity());
+        ArrayList<Vegetables> vegetables = getVegetables(category_id);
 
         CategoryGridAdapter adapter = new CategoryGridAdapter(getActivity(), vegetables);
         gridView.setAdapter(adapter);
@@ -90,14 +95,10 @@ public class MainFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-//                Log.d("Vegetable_ID = ", String.valueOf(vegetables.get(position).getId()));
-
                 //Put extra payload on the intent
                 intent.putExtra("name", vegetables.get(position).getName());
-                intent.putExtra("id23", String.valueOf(vegetables.get(position).getId()));
-                int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.repolyo,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.lettuce,R.drawable.upo,R.drawable.ampalaya};
-                int v_id = vegetables.get(position).getId();
-                intent.putExtra("image", vegeImages[v_id - 1]);
+                intent.putExtra("id23", vegetables.get(position).getId());
+                intent.putExtra("image", vegetables.get(position).getImageName());
 
                 startActivity(intent);
             }
@@ -105,5 +106,44 @@ public class MainFragment extends Fragment {
 
         // Return view
         return view;
+    }
+
+    private ArrayList<Vegetables> getVegetables(String category_id) {
+        ArrayList<Vegetables> vegetables = new ArrayList<>();
+
+        String json;
+
+        try {
+
+            InputStream is = getActivity().getAssets().open("vegetables.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray veges = new JSONArray(json);
+
+            for(int i = 0; i < veges.length(); i++) {
+                JSONObject vegetable = veges.getJSONObject(i);
+                if(vegetable.getString("category").equals(category_id)) {
+                    String v_id = vegetable.getString("id");
+                    String name = vegetable.getString("name");
+                    String desc = vegetable.getString("description");
+                    String url = vegetable.getString("url");
+                    String imageName = vegetable.getString("image");
+                    String category = vegetable.getString("category");
+
+                    vegetables.add(new Vegetables(v_id, name, desc, url, imageName, category));
+                }
+            }
+            return vegetables;
+
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }

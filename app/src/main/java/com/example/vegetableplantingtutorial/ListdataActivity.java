@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -18,6 +19,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
 
 public class ListdataActivity extends AppCompatActivity {
 
@@ -36,7 +42,7 @@ public class ListdataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listdata);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        DatabaseHelper db = new DatabaseHelper(this);
+//        DatabaseHelper db = new DatabaseHelper(this);
 
         name = findViewById(R.id.listdata);
         image = findViewById(R.id.imageView);
@@ -52,19 +58,60 @@ public class ListdataActivity extends AppCompatActivity {
         });
 
         Intent intent = getIntent();
-        name.setText(intent.getStringExtra("name"));
-        image.setImageResource(intent.getIntExtra("image", 0));
-        txtid.setText(intent.getStringExtra("id23"));
+//        name.setText(intent.getStringExtra("name"));
+//        image.setImageResource(intent.getIntExtra("image", 0));
+//        txtid.setText(intent.getStringExtra("id23"));
 
-        int id1 = Integer.parseInt(txtid.getText().toString());
+        String vegetable_id = intent.getStringExtra("id23");
+        txtid.setText(vegetable_id);
 
-        Cursor cursor = db.getData(id1);
-        StringBuilder stringBuilder = new StringBuilder();
-        while (cursor.moveToNext()){
-            stringBuilder.append(""+cursor.getString(2));
-            this.videoUrl = cursor.getString(3);
+        Vegetables vegetable = getDetails(vegetable_id);
+
+        name.setText(vegetable.getName());
+
+        Resources resources = getResources();
+        final int resourceId = resources.getIdentifier(vegetable.getImageName(), "drawable", getPackageName());
+        image.setImageResource(resourceId);
+
+        this.videoUrl = vegetable.getUrl();
+        des.setText(vegetable.getDescription());
+    }
+
+    private Vegetables getDetails(String id) {
+
+        String json;
+        Vegetables vege = null;
+        try {
+
+            InputStream is = getAssets().open("vegetables.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+
+            for(int j = 0; j < jsonArray.length(); j++) {
+
+                JSONObject jsonObject = jsonArray.getJSONObject(j);
+                Log.d(jsonObject.getString("id"), jsonObject.getString("name"));
+                if(jsonObject.getString("id").equals(id)) {
+                    String v_id = jsonObject.getString("id");
+                    String name = jsonObject.getString("name");
+                    String description = jsonObject.getString("description");
+                    String url = jsonObject.getString("url");
+                    String image = jsonObject.getString("image");
+
+                    vege = new Vegetables(v_id, name, description, url, image);
+                }
+            }
+            return vege;
         }
-        des.setText(stringBuilder);
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public void openTutorialActivity() {

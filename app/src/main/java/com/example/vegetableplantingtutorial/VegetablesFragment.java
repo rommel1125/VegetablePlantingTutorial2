@@ -2,11 +2,14 @@ package com.example.vegetableplantingtutorial;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +23,12 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.util.ArrayList;
 
 public class VegetablesFragment extends Fragment {
     ListView listView;
@@ -51,7 +60,7 @@ public class VegetablesFragment extends Fragment {
         return view;
     }
 
-    private class CustomAdapter extends BaseAdapter{
+    private class CustomAdapter extends BaseAdapter {
         @Override
         public int getCount() {
 
@@ -76,11 +85,56 @@ public class VegetablesFragment extends Fragment {
 
             TextView name = view1.findViewById(R.id.vegetables);
             ImageView image = view1.findViewById(R.id.vegetables_images);
+//
+//            name.setText(vegeName[i]);
+//            image.setImageResource(vegeImages[i]);
 
-            name.setText(vegeName[i]);
-            image.setImageResource(vegeImages[i]);
+            Vegetables vegetable = setVegetables(String.valueOf(i+1));
+
+            name.setText(vegetable.getName());
+
+            Resources resources = getActivity().getResources();
+            final int resourceId = resources.getIdentifier(vegetable.getImageName(), "drawable", getActivity().getPackageName());
+            image.setImageResource(resourceId);
 
             return view1;
+        }
+
+        public Vegetables setVegetables(String id) {
+
+            String json;
+            Vegetables vege = null;
+            try {
+
+                InputStream is = getActivity().getAssets().open("vegetables.json");
+                int size = is.available();
+                byte[] buffer = new byte[size];
+                is.read(buffer);
+                is.close();
+
+                json = new String(buffer, "UTF-8");
+                JSONArray jsonArray = new JSONArray(json);
+
+                for(int j = 0; j < jsonArray.length(); j++) {
+
+                    JSONObject jsonObject = jsonArray.getJSONObject(j);
+                    Log.d(jsonObject.getString("id"), jsonObject.getString("name"));
+                    if(jsonObject.getString("id").equals(id)) {
+                        String v_id = jsonObject.getString("id");
+                        String name = jsonObject.getString("name");
+                        String description = jsonObject.getString("description");
+                        String url = jsonObject.getString("url");
+                        String image = jsonObject.getString("image");
+
+                        vege = new Vegetables(v_id, name, description, url, image);
+                    }
+                }
+                return vege;
+            }
+            catch(Exception e) {
+                e.printStackTrace();
+            }
+            return null;
         }
     }
 }

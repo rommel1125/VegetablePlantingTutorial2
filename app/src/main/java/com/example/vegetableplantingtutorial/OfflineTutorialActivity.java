@@ -27,11 +27,11 @@ public class OfflineTutorialActivity extends AppCompatActivity {
         Intent intent = getIntent();
         vegetableId = intent.getStringExtra(ListdataActivity.EXTRA_VEGETABLE_ID);
 
-        DatabaseHelper db = new DatabaseHelper(this);
-        VegetableModel vegetable = db.fetchVegetableById(vegetableId);
-
-        vegetableName.setText(vegetable.getName());
-        vegetableDescription.setText(vegetable.getDescription());
-        vegetableImage.setImageBitmap(vegetable.getImage());
+//        DatabaseHelper db = new DatabaseHelper(this);
+//        VegetableModel vegetable = db.fetchVegetableById(vegetableId);
+//
+//        vegetableName.setText(vegetable.getName());
+//        vegetableDescription.setText(vegetable.getDescription());
+//        vegetableImage.setImageBitmap(vegetable.getImage());
     }
 }

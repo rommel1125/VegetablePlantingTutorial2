@@ -1,6 +1,7 @@
 package com.example.vegetableplantingtutorial;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,9 +16,9 @@ public class CategoryGridAdapter extends BaseAdapter {
 
     private Context context;
     private LayoutInflater inflater;
-    private ArrayList<VegetableModel> vegetables;
+    private ArrayList<Vegetables> vegetables;
 
-    public CategoryGridAdapter(Context context, ArrayList<VegetableModel> vegetables) {
+    public CategoryGridAdapter(Context context, ArrayList<Vegetables> vegetables) {
 
         this.context = context;
         this.vegetables = vegetables;
@@ -49,13 +50,15 @@ public class CategoryGridAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.row_item, null);
         }
 
-        int[] vegeImages = {R.drawable.eggplant,R.drawable.tomato,R.drawable.repolyo,R.drawable.sitaw,R.drawable.kalabasa,R.drawable.malunggay,R.drawable.kangkong,R.drawable.lettuce,R.drawable.upo,R.drawable.ampalaya};
-
         ImageView imageView = convertView.findViewById(R.id.card_image_view);
         TextView textView = convertView.findViewById(R.id.card_text_view);
 
-        int index = vegetables.get(position).getId();
-        imageView.setImageResource(vegeImages[index -1]);
+        String index = vegetables.get(position).getId();
+
+        Resources  resources = this.context.getResources();
+        final int resourceId = resources.getIdentifier(vegetables.get(position).getImageName(), "drawable", this.context.getPackageName());
+        imageView.setImageResource(resourceId);
+
         textView.setText(vegetables.get(position).getName());
 
 
