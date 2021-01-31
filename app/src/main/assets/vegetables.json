@@ -5,7 +5,89 @@
         "description" : "Eggplant, Solanum melongena, is a tropical, herbaceous, perennial plant, closely related to tomato, in the family Solanaceae which is grown for its edible fruit. The plants has a branching stem and simple, long, flat. coarsely lobed leaves which are green in color and are arranged alternately on the branches. The leaves can measure 10 to 20 cm (4–8 in) long and 5 to 10 cm (2–4 in) broad. The plant produces purple flowers which are 3–5 cm (1.2–2.0 in) in diameter. The fruit is a large, fleshy ovoid berry which can reach 40 cm (15.7 in) in length, with glossy smooth skin and numerous small seeds. The color of the fruit is variable and can be white, green, yellow, purple or black. Eggplants can reach up to 1.5 m (4.9 ft) in height and although they are perennial plants, they are most commonly grown as annuals. Eggplant may also be referred to as aubergine or guinea squash and originates from the Indian subcontinent.\nUses\nEggplant is usually cooked before consumption and is eaten as a vegetable.\nPropagation\nBasic requirements Eggplants are warm-season crops which require a long growing season.They grow best in regions where the daytime temperature is between 26 and 32°C (80–90°F) and night time temperatures around 21°C (70°F). In addition, eggplant is a sun loving plant and should be positioned in an area that receives full sunlight. Plants will perform best when planted in a fertile soil with a pH between 6.3 and 6.8. Sowing seeds In cold areas and regions with a short growing season it is necessary to start eggplant indoors or in a glasshouse. In addition, eggplant will often perform much better in colder areas if planted in containers or grown under row covers as this helps to keep the soil warm. Seeds should be sown indoors 6 to 8 weeks before the last frost date. Sow seeds thickly in seed trays containing good quality sterile seed starting mix to a depth of 6 mm (0.25 in). Keep the trays moist and provide bottom heat by placing on a heat mat or in a warm area of the house. Seedling should be potted into larger pots when they have two sets of true leaves. Transplanting Eggplant seedlings can be transplanted after hardening-off and when all danger of frost has passed in your area. Seedlings should be spaced 45–60 cm (18–24 in) apart, depending on variety, allowing a further 60–90 cm (24–36 in) between rows. General care and maintenance Eggplant may benefit from the addition of mulch to conserve soil moisture and maintain a higher soil temperature. Row covers will help to increase the temperature around the plants in cooler climates and during cool spells in otherwise warm areas. The row covers should be removed to allow pollinators to access the plants during flowering. Eggplant should be provided with a steady water supply for optimum development of fruit and the soil around the plants should not be allowed to dry out but should also not be wet. Plants can be laden with numerous fruit and the use of stakes and supports can help to support the plants before harvest. Harvesting Eggplant fruits are ready to harvest while the flesh is still firm and seeds are small and tightly packed. The skin of the fruit should be firm, glossy and dark purple. Over ripe fruit will contain darker seeds and will taste bitter. Harvest the fruit as soon as it is ripe to ensure maximum productivity. The fruit should be removed from the plant by cutting the calyx (green stem above the fruit) with a sharp knife.",
         "url" : "https://youtu.be/dHDKdczU2_U",
         "image" : "eggplant",
-        "category" : "2"
+        "category" : "2",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Start eggplant seeds indoors 6-9 weeks before the last frost is expected.\n Eggplants need warmth, so it is best to start them indoors and transplant them once the weather is warm enough. Aim to germinate the seeds 6-9 weeks before the last frost of the year is predicted. Eggplants should not be re-planted outdoors until the temperature is at least 70 °F (21 °C).\n\n  -If you don't wish to plan ahead this way, you can purchase eggplant seedlings directly from a gardening center or nursery.",
+                "step_image" : "eggplant_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "Soak the seeds overnight before germinating them.\n Eggplant seeds have a better chance of growing if they are soaked thoroughly before planting. Place the seeds in a small container and completely cover them with water. Let the seeds sit overnight, then drain the water.\n -Eggplant seedlings grow best in 72- and 128-cell trays, which have large seed containers that accommodate root growth.\n -Buy seed trays at garden centers or online.",
+                "step_image" : "eggplant_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Fill seed trays with a fine, loose growing medium.\n For the best results, germinate eggplant seeds in a soil-less growing medium. Fill seed trays 3/4 full with the growing medium of your choice. Vermiculite, perlite, coconut husk, and compost are all good options.",
+                "step_image" : "eggplant_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Plant the seeds 0.25 inches (0.64 cm) deep and moisten the medium.\n Using your fingers, push 1-2 eggplant seeds into the growing medium in each individual seed container. Make sure that the seeds are about 0.25 inches (0.64 cm) under the surface of the growing medium. Cover over the seeds and mist or sprinkle water onto the surface.",
+                "step_image" : "eggplant_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Let the seeds germinate for 5-14 days.\n Eggplants seeds will grow as soon as 5 days or in as long as 2 weeks, depending on the temperature they are kept at. Warmer temperatures will spur a quicker germination period. Try to maintain a temperature of at least 65 °F (18 °C) for your eggplant seeds while they are germinating.",
+                "step_image" : "eggplant_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Transplant the seedlings into pots when they reach 3 inches (7.6 cm) tall.\n When the seedlings are large enough they should be given their own individual pots. Fill small pots with the same growing medium you used to start the seeds and dig small holes to insert the seedlings. Gently remove each seedling from the growing tray and replant them in their new pots.\n -The potted seedlings should be kept indoors until the outdoor temperature reaches at least 70 °F (21 °C).",
+                "step_image" : "eggplant_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Choose a spot in your garden that gets full sunlight.\n Eggplants require very high temperatures to grow and thrive in a garden. Ideally, choose a spot that gets sun for more than 6 hours per day to plant your eggplants. If this is not possible, plant eggplants in a spot that get only partial shade.",
+                "step_image" : "eggplant_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process" : "Do a test to see if your soil is well-drained.\n Eggplant grows best in healthy, well-drained soil. Find out what condition your soil is in by digging a hole that is approximately 12–18 inches (30–46 cm) deep and 12–18 inches (30–46 cm) wide, then fill the hole with water. If the water pools and takes longer than an hour to soak in, your soil is poorly-drained.",
+                "step_image" : "eggplant_step8"
+            },
+            {
+                "step_name" : "STEP 9",
+                "process" : "Fix poorly drained soil by adding an organic soil amendment.\n Use a gardening rake to loosen the top 8 in (20 cm) of your soil. Pour a 2 in (5.1 cm) layer of organic soil amendment on top of the soil. Use the rake to mix it into the soil evenly.\n -Purchase organic soil amendment materials, such as sand, vermiculite, perlite, or compost, at a local garden center or hardware store.",
+                "step_image" : "eggplant_step9"
+            },
+            {
+                "step_name" : "STEP 10",
+                "process" : "Plant seedlings 24–30 inches (61–76 cm) apart, root-deep.\n Eggplants do best when they have room to spread and grow. Dig holes slightly larger than your seedlings' roots, spaced 24–30 inches (61–76 cm) in all directions. Gently place the seedlings in the holes and fill the space around their roots with soil.",
+                "step_image" : "eggplant_step10"
+            },
+            {
+                "step_name" : "STEP 11",
+                "process" : "Place mulch material around the base of your plants.\n Mulching will help prevent the growth of weeds and keep your plants warm. Straw, compost, and grass clipping are good choices for natural mulch materials. Scatter them around the base of your eggplant seedlings in a thick layer.\n -Be sure to use grass clipping from untreated lawns, as chemicals and fertilizers may harm your plants.\n -Layer at least 1 inch (2.5 cm) of mulch to protect your plants.",
+                "step_image" : "eggplant_step11"
+            },
+            {
+                "step_name" : "STEP 12",
+                "process" : "Stake your plants to hold them up as they grow.\n Use bamboo sticks or other suitable stakes to hold up your plants. Insert the stakes into the soil about 1–2 inches (2.5–5.1 cm) away from each seedling. As the plants grow, they will lean onto the stakes and won't disturb any surrounding plants.\n -Insert the stakes right away after transplanting your seedlings to avoid disturbing the soil later on.",
+                "step_image" : "eggplant_step12"
+            },
+            {
+                "step_name" : "STEP 13",
+                "process" : "Water eggplants thoroughly once a week.\n To thrive, eggplant need at least 1 inch (2.5 cm) of water per week. Aim for one weekly, intensive watering rather that multiple, short watering sessions. Frequent watering promotes shallow roots, which can compromise the durability of your eggplants.",
+                "step_image" : "eggplant_step13"
+            },
+            {
+                "step_name" : "STEP 14",
+                "process" : "Remove any flea beetles you find on the leaves of the plants.\n Flea beetles are tiny black insects that feed on plant leaves and can harm eggplant crops. Check the upper and lower leaves of your eggplants for these bugs and remove them by hand. Destroy the bugs to keep them from returning or reproducing.\n -If you are overwhelmed with flea beetles during the growing season, destroy your plants and cultivate the soil in the spring to destroy any larvae that may remain there.",
+                "step_image" : "eggplant_step14"
+            },
+            {
+                "step_name" : "STEP 15",
+                "process" : "Use row covers to protect your eggplants.\n Row covers are great for protecting eggplants from the cold, disease, and insects. Row covers are long pieces of mesh material that cover plants and offer them protection. Lay row covers over your eggplants and fold over the edges on each side. Use a rubber mallet to hammer garden pegs through the folded edges of the material to secure it. \n-Lift the row covers to water your eggplants, and remove them completely when it's time to harvest.\n -Purchase row covers at garden centers or online.",
+                "step_image" : "eggplant_step15"
+            },
+            {
+                "step_name" : "STEP 16",
+                "process" : "Harvest eggplants 16-24 weeks after sowing when their skin is glossy. \nKeep track of your planting schedule from the day you first sow your eggplant seeds. At the 16 week mark, start checking your eggplant crops to see if they are ready for harvesting. When the skin is shiny, cut off eggplants near the stem with sharp pruning shears.\n -Eggplants will keep for 2 weeks if you refrigerate them.",
+                "step_image" : "eggplant_step16"
+            }
+        ]
     },
     {
         "id" : "2",
@@ -13,7 +95,54 @@
         "description" : "Tomato, Lycopersicum esculentum (syn. Solanum lycopersicum and Lycopersicon lycopersicum) is an herbaceous annual in the family Solanaceae grown for its edible fruit. The plant can be erect with short stems or vine-like with long, spreading stems. The stems are covered in coarse hairs and the leaves are arranged spirally. The tomato plant produces yellow flowers, which can develop into a cyme of 3–12, and usually a round fruit (berry) which is fleshy, smoothed skinned and can be red, pink, purple, brown, orange or yellow in color. The tomato plant can grow 0.7–2 m (2.3–6.6 ft) in height and as an annual, is harvested after only one growing season. Tomato may also be referred to as love apple and originates from South America.\n\nUses\nTomato fruit can be eaten raw or cooked and is used in many dishes. The fruit may also be processed into juice, soup, ketchup, puree, paste or powder.\n\nPropagation\nRequirements Tomatoes grow very well in warm areas at temperatures between 21 and 24°C (69.8–75.2°F). They require a deep, loamy, well-draining soil with a pH between 5.5 and 6.8. If soil drainage is a problem then tomatoes can be planted in a raised bed. Like all fruiting plants, tomatoes require full sun for most of the day. Tomato varieties Determinate (“bush”) tomatoes have been purposefully bred to grow vertically and remain relatively compact. The plant will stop growing once fruit begins developing on the terminal shoot and all the fruits ripen at around the same time. In contrast, indeterminate (“vining”) tomato varieties spread laterally and will continue to grow and produce fruit until frosts begin the the Fall. Indeterminate varieties can produce fruit all season and fruits will develop and ripen at different times. Heirloom tomatoes are generally open-pollinated varieties which have been conserved over many generations due to certain desirable characteristics such as flavor. Hybrid tomatoes are the product of cross-pollination between two parents with desirable characteristics such as high yield, early maturation, improved flavor or resistance to certain diseases. Sowing seeds In most cases, tomato seeds should be started indoors 6–8 weeks before last Spring frost. Seeds can be direct seeded in areas with a long growing season. Seeds should be sown in flats or cell trays using a sterile seedling mix. Plant seeds to a depth of 0.6 cm (1/4 in) and water lightly. If cells are being used, plant several seeds in each cell and thin to 1 seedling after germination. Position trays in a bright South facing window or under fluorescent lighting. The optimum soil temperature for germination is 21–32°C (70–90°F). A heat mat can be used to warm the flats if required. Seedlings should emerge within 6-14 days and after the seedlings has developed the first set of true leaves then they can be moved to a larger (3-4 in) pot and moved to a cooler temperature (16–21°C/60–70°F). Transplanting Tomato seedlings are ready to be transplanted once they are 15–25 cm (6–10 in) in height and have 3–5 true leaves assuming all danger of frost has passed. Beginning approximately 7-10 days before transplanting, plants should be set outside to harden off (see https://www.plantvillage.com/posts/264). The transplanting site should be prepared by working in a balanced fertilizer according to the guidelines on the product label. Transplants should be spaced 76–123 cm (30–48 in) apart with a between row spacing of 123 cm (48 in). It is common practice to plant tomatoes in trenches on their side (see https://www.plantvillage.com/posts/833-tomato) as tomato stems will sprout roots along their length when buried. Avoid over-fertilizing transplants, particularly with nitrogen, at this stage of growth as it will promote growth of foliage rather than fruits. Water plants lightly at base instead of overhead as wet foliage is more prone to diseases and the buried stem needs time to adapt and sprout roots. It is important that tomato plants receive even watering to prevent the development of blossom end rot, drip or soaker hoses work best and mulching around the plants helps to conserve soil moisture. Stakes, Cages and Trellises Staking, caging or trellising tomatoes supports the plants and helps to keep fruit off of the ground as well as increasing air circulation around the foliage which helps to prevent disease. The type of support system used depends on the type of tomatoes being grown. Determinate tomatoes have short or medium length vines and stop growing once fruit develops on the terminal branches. Determinates can be staked or caged but do not adapt to trellises. The position of the fruit means that little heavy pruning is required. In contrast, indeterminate tomatoes grow indefinitely and require a support system to prevent them trailing along the ground. The amount of pruning required depends on the support system being utilized - vines require only light pruning when caged, moderate pruning when staked and heavy pruning when using a trellis.",
         "url" : "https://youtu.be/eySTo2GgvoY",
         "image" : "tomato",
-        "category" : "3"
+        "category" : "3",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Get the Seeds\n First, you need to get your seeds from a good source. I prefer online seed stores that accept PayPal, but this is just my personal preference. You can find tomato seeds in the garden center at places like Wal-Mart and Lowes. I buy mine from Tomatobob.com, who sells only heirloom seeds.",
+                "step_image" : "tomato_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "When to Plant the Seeds\n Tomatoes are typically sown 6 to 8 weeks before the last anticipated frost. Some say to sow them later, more like 5 weeks before the last frost, but either will work. Keep in mind that the earlier you start, the larger the plants will be when you plant them out.",
+                "step_image" : "tomato_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Start the Seeds\n Use seed starting mix, such as Miracle Gro or Jiffy Mix, to start your seeds. Fill a bowl with some mix and knead in some water till the mix is saturated but not soggy. I use egg cartons to start my seeds in. You can use either the clear plastic or Styrofoam cartons; do NOT use the paper ones. Fill the trays with seed mix and firm the mix down into the cells. If you are growing multiple varieties, you will need a labeling system to keep track of what tray contains what variety. Use tape, plant tags, etc to mark the trays. Be creative - do whatever works best for you to keep track of the varieties.\n Plant the seeds about 1/4 inch deep, 2 seeds per cell. I use a pencil with the tip broken off to make a 1/4\" deep hole in the center of each cell, and I drop 2 seeds into each hole and firm the mix around the seeds to completely cover them.",
+                "step_image" : "default_step_image"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Germination\nKeep your trays moist and warm to speed germination. Loosely fit plastic wrap over the tops of the trays, to keep water in but still allow for air circulation. Light is not required to germinate seeds. In anywhere from 3 to 15 days, you should start to see tiny seedlings emerge. When your seedlings are up and the first 2 leaves (cotyledon leaves) start to open, you will need to put your seedlings under a light. Use a cheap fluorescent shop light for your seedlings. I use 4' fixtures that take 2 bulbs each. You can use regular fluorescent tubes, or ones specially made for plants. I use GE \"Plant & Aquarium\" tubes in my fixtures. It's very important to keep your seedlings within 4\" of the lights, preferably closer. If you keep the light too far from the seedlings, they will get very \"leggy\" - tall and skinny - and might collapse. Keep the seed starting mix moist but not soggy, and water whenever the surface becomes dry to the touch (but NOT completely dry).",
+                "step_image" : "tomato_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Care for the Young Seedlings\n Keep the seedlings watered - not overwatered, but don't let them get so dry they wilt, either.\n Make sure they are kept within 4\" of the grow light(s). You can adjust the chain that the light hangs from, or you can put the seedling trays on books or boxes to adjust their distance from the light.\n Make sure your grow light setup is in a room where it won't get too hot (80+ deg F) or too cold (below 50 deg F).\n You will want the seedlings to be easily accessible, because you will be watering them often (every couple days).\n Monitor your seedlings and make sure they are growing well. The cotyledon leaves should grow up to 1 inch wide each, and should be a healthy green color.\n Damping off can be a problem - this is a disease that causes young plants to collapse at the soil line and die. If any of your seedlings damp off, remove the infected plants and the mix they grew in to prevent spreading the disease to other plants.",
+                "step_image" : "tomato_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Potting Up\n When your tomato seedlings are showing their first set of true leaves, it's time to put them in individual pots.\n I use 16-ounce disposable plastic cups. These work well and are cheap.\n Fill the cups with Miracle Gro Potting Mix or similar potting mix. I use Miracle Gro because it eliminates the need to apply fertilizer manually.\n Use a pencil to make a hole in the center of the mix in each cup. The hole should be about 1 inch wide and 3-4 inches deep.\n Choose the best seedlings to pot up, and discard the rest. If you pot up more than you can grow in your garden, just give away the extra plants when they are bigger.\n Carefully loosen the seed starting mix around your chosen seedlings. Gently scoop out each seedling, being careful not to damage the roots or stem. Tap off excess mix from the roots so they will fit easily into the hole you made in the mix in the larger cups. Do this one at a time, and when a seedling has been uprooted, put it in the larger cup immediately.\n Firm the potting mix around the roots and the stem of each seedling. Bury the stem all the way up to the cotyledon leaves - roots will grow from the stem and benefit the plant.\n Label your cups with the variety name of each plant. I write on the side of the cup with a Sharpie.\n Thoroughly water all the cups. Make sure you don't splash potting mix all over the seedlings when you water them.\n When the seedlings are all potted up, put them under the grow light(s) and keep them within 4-5 inches of the lights.",
+                "step_image" : "tomato_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Planting Out\n When the danger of frost has passed, it's time to get the plants out in the garden. Your garden should be tilled ahead of time, and adding compost is good. Soil pH should be from 6 to 7 (slightly acidic to neutral) for tomatoes.\n Dig a trench about 1 foot long, with one end deeper than the other. Carefully remove the plant from its pot and loosen the root ball. Place the root ball in the deeper end of the trench, and lay the seedling on its side with the stem in the trough.\n Remove all the leaves from the part of the stem that is in the trench, and leave the top few leaves on where they will be above the ground. Bury the roots and bare stem in the trench, leaving only the top few leaves sticking out. Don't worry about their being sideways - the plant will correct itself and grow upwards within a few days. \n Trenching plants allows roots to develop along the entire buried portion of the stem. They say this increases yields - I haven't done any tests of my own but it makes sense. More roots allow for more nutrients to be absorbed.\n Repeat the trenching process to all your plants, keeping them spaced at least 2 feet apart (if you plan on pruning) or 3-4 feet apart (if you won't be pruning).\n When all the plants are trenched, water them thoroughly and add mulch if desired. Drive stakes or cages into the ground, making sure you don't puncture the buried stem.",
+                "step_image" : "tomato_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process" : "Care in the Garden\n Your tomato growing spot should receive at least 6 hours of sun a day for good yields. I only get at most 5 hours a day, but my plants sill produce fairly well.\n Keep the plants watered, but not overwatered. Don't let them dry out or inconsistently water them. Not enough water can cause fruit problems like Blossom End Rot, and overwatering can cause the fruit to crack.\n To prune your plants, pinch off the suckers (shoots that come out from between each leaf and the main stem). You can let a few suckers grow for more fruit per plant, but as a general rule, the more fruit you allow, the smaller they will be. Last year I let one sucker grow on each plant for a total of 2 stems per plant. The rest of the suckers were pinched off as they grew.\n If you prune your plants, tie the stems to a stake. If you don't prune them, you can let them sprawl on the ground or place tomato cages around the plants.",
+                "step_image" : "tomato_step8"
+            },
+            {
+                "step_name" : "STEP 9",
+                "process" : "Harvest\n You should start getting ripe fruit anywhere from 2 to 4 months after planting out in the garden. Different varieties have different DTM (days to maturity), so some will ripen 70 days after transplanting and some will ripen late, 100 days or more. Usually when you purchase seed, the description will tell you the DTM.\n You can cut or twist the fruit off when it is fully colored. Some heirloom varieties ripen green or have green shoulders when ripe; Google the varieties you are growing to see what they look like when ripe.\n From this point forward, it's mostly watering and picking fruit till the season ends.",
+                "step_image" : "tomato_step9"
+            }
+        ]
     },
     {
         "id" : "3",
@@ -21,7 +150,89 @@
         "description" : "The cabbage plant, Brassica oleracea, is an herbaceous annual or biennial vegetable in the family Brassicaceae grown for its edible head. There are many different varieties of cabbage which include the white and red cabbage (Brassica oleracea var. capitata) and the savoy cabbage (Brassica oleracea var. sabauda. The head of the cabbage is round and forms on a short thick stem. The leaves are thick and alternating with wavy or lobed edges and the roots are are fibrous and shallow. The plant produces large yellow flowers. The densely leaved heads can range in size from 0.5 to 3.6 kg (1-8 lb) depending on variety. The plant is usually grown as an annual. Brassica oleracea may be referred to as cabbage, Shetland cabbage, Savoy cabbage, white cabbage or red cabbage and is believed to have originated from a wild cabbage ancestor in ancient Asia minor.\n\nUses\nCabbage is primarily grown for consumption as a vegetable, eaten after boiling or steaming. Some cultivars are grown as fodder for animals. Red cabbage is commonly pickled\n\nPropagation\nBasic requirements Cabbage is cool season crop that grows best in cool, moist conditions. The plant will grow best at temperatures between 4 and 21°C (40–50°F) allowing it to be grown in both Spring and Fall. Cabbage will grow optimally in a rich, moist, well draining soil With a pH of 6.5. The plant requires at least six hours of direct sunlight every day. Sowing seeds Cabbage can be direct seeded or started indoors to produce transplants. The optimum soil temperature for germination is between 12 and 24°C (55–75°F). Cabbage seeds can be planted outdoors 6–8 weeks before the last spring frost date in a cold frame and transplanted to their final location approximately 4 weeks before the last frost. If planting for a fall harvest, cabbage can be direct seeded 6–8 weeks before the first frost date. Prepare the soil for planting through the addition of nitrogen in the form of bone meal or composted manure. Plant cabbage seeds 6 mm (0.25 in) deep allowing 10–15 cm (4–6 in) between plants in the row and a 0.6 to 1.2 m (2–4 ft) between rows. Thin seedlings to a final within row spacing of 45–60 cm (18–24 in). Keep soil moist during germination to prevent a crust from forming on the soil surface as this will cause uneven germination. Transplanting Seedlings started indoors or in a cold frame are ready to be transplanted when they have 3–4 leaves and the daytime temperature has reached 10°C (50°F). Seedling should be planted at the final spacing for seeds (45–60 cm/18–24 in between plants and 0.6 to 1.2 m/2–4 ft between rows). Plant each seedling slightly deeper than it was previously. The plantings can be staggered in 2 week intervals to prolong the harvest. General care and maintenance Cabbage should be kept evenly watered to ensure the development of tight heads. Uneven watering can cause heads to crack. Application of mulch around plants helps to conserve soil moisture. Cabbage plants have shallow roots and in order to avoid damaging them, it is preferable to hand pull any weeds growing around the plants. Cabbages are heavy feeders and require the addition of fertilizer to meet their growth requirements and develop optimally. Fertilize the plants when they are beginning to form new leaves and starting to develop heads. Harvesting Cabbages are ready to harvest when the head is fully formed and feels firm and well-packed when squeezed. Cut the head away from the stalk with a sharp knife. Leaving the stalks in the ground will result in the formation of several smaller heads which can also be harvested and eaten.",
         "url" : "https://youtu.be/TS_yDySB92s",
         "image" : "repolyo",
-        "category" : "1"
+        "category" : "1",
+        "steps":  [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Choose multiple varieties of cabbage. \nYou'll have a longer harvest if you plant several varieties that have different maturities. If your cabbages are maturing at different times, you'll have fresh cabbage longer. Cabbage maturities vary from 60 to 120 days \n\n-Cabbage varieties are grouped according to when they are harvested. Spring cabbages are ready the earliest, from mid to late spring. Summer cabbages can be harvested in late summer and early fall. Cabbages categorized as fall and winter cabbages are harvested later in the fall. \n-If you want a variety with a longer harvesting period, you might pick the Savoy cabbage. The harvesting season for this variety starts in early fall and extends into winter and early spring of the next year.",
+                "step_image" : "cabbage_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "Start seeds 6 to 8 weeks before the last spring frost.\n Sow your seeds .25 inches (0.64 cm) deep and 2 inches (5.1 cm) apart. Place them in a spot where they'll get plenty of sunlight, or set them under grow lamps with temperatures between 60 and 70 °F (16 and 21 °C).\n-If you don't want to start your cabbage from seeds yourself, you can buy transplant seedlings from a local grower or at a nursery or farmer's market.",
+                "step_image" : "cabbage_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Prepare soil with aged manure or fertilizer and compost.\n Till the soil of your planting bed to a depth of about 2 inches (5.1 cm) and mix in a layer of compost. Top the layer of compost with a balanced fertilizer or manure. \n-Water the bed thoroughly after fertilizing it, and make sure it stays moist until you transplant your seedlings.",
+                "step_image" : "cabbage_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Move your seedlings outdoors after 3 to 4 weeks. \nStart your seeds indoors for a couple of weeks, then transfer them to your garden. Seedlings exposed to cold will become hardened so that frost won't kill them. You will need to harden the seedlings off gradually by setting them outside in a sheltered area for an increasing number of hours each day for about a week. Once they’re hardened, set your plants so that 1 to 2 inches (2.5 to 5.1 cm) of the main stem is buried in the soil.\n-While hardening off the seedlings, place them in an area where they won’t be exposed to harsh wind or direct sunlight. Leave them out for 1-2 hours at a time to start, then gradually work your way up to 7 or 8 hours by the end of the week.\n-Thin the seedlings so that there is only 1 seedling per cell or pot that you transplant. You can wait until the seeds have germinated, then pick the strongest seedling in each tray.\n\n-Seedlings should have at least 3 or 4 adult leaves before you transplant them.",
+                "step_image" : "cabbage_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Arrange your cabbage in rows with plenty of sun exposure. \nCabbage needs at least 6 hours of sunshine a day. The more sun your cabbage gets, the larger and faster the heads will grow. Set the seedlings in rows 12 to 24 inches (30 to 61 cm) apart.\n\n-For fall or winter varieties, leave a minimum of 24 inches (61 cm) between each seedling, if not a little more. \n\nTip: The closer together you plant your cabbages, the smaller the heads will be. If you want larger heads, set your seedlings further apart.",
+                "step_image" : "cabbage_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Place your cabbage among complementary plants. \nPlants such as beans, celery, cucumbers, potatoes, onions, and lettuce will improve your cabbages' health and help them thrive. Spinach, kale, and dill are some other plants that are helpful near cabbage. \n-Avoid planting cabbage near broccoli, cauliflower, strawberries, or tomatoes. These crops compete for similar nutrients and will deplete your soil faster. Plant them on the other side of the garden, or at least 4 feet (1.2 m) away for best results. \nTip: Dill protects your cabbage by attracting beneficial wasps that kill cabbage worms and other pests.",
+                "step_image" : "cabbage_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Protect seedlings from pests with row covers and collars. \nSeedlings are vulnerable to cutworms. A collar made from a plastic cup and pushed 1 inch (2.5 cm) into the ground around the seedling will protect it. \n-Nets and row covers can be used to protect your cabbage from airborne pests. \nVariation: Another way to protect your cabbages from pests is to plant a sacrificial crop or trap crop nearby. For example, caterpillars that feed on cabbages prefer nasturtiums. If you plant nasturtiums near your cabbage patch, the caterpillars will feast on those instead of ruining your cabbage crop.",
+                "step_image" : "cabbage_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process" : "Keep the pH of your soil between 6.0 and 6.5. \nBuy a kit online or at your local gardening shop if you want to test the pH of your soil yourself. If you live in the US, you also have the option of contacting the agricultural extension of your state university. They will take samples of your soil and lab-test it at no charge. \n\n-If you need to lower your soil's pH, use products such as organic mulches, elemental sulfur, or aluminum sulfate. If you need to raise your soil's pH, add hydrated lime or wood ash.",
+                "step_image" : "cabbage_step8"
+            },
+            {
+                "step_name" : "STEP 9",
+                "process" : "Use 2 inches (5.1 cm) of water and mulch each week. \nCabbages need moist soil. Unless you've had frequent rain, water the soil around the cabbages at least once a week. Mulch after watering to keep the moisture in the soil. \n\n-When watering and mulching, inspect your cabbage for signs of pests or disease. Spraying with a biological pesticide every other week can keep pest damage to a minimum. \n\n-Take care not to wet the foliage of your cabbages, especially in cooler weather. Wet leaves can make your cabbages more vulnerable to disease. \n\n-You can prevent water and soil from splashing onto your cabbages by gently watering the soil near the base of the cabbage instead of spraying water directly onto the soil right at the base.",
+                "step_image" : "cabbage_step9"
+            },
+            {
+                "step_name" : "STEP 10",
+                "process" : "Fertilize the soil 3 weeks after planting. \n\nA fish emulsion or other liquid fertilizer will enable optimum growth. Add the fertilizer soon after your cabbage begins to develop new leaves, and then again when the plants start forming heads. \n\n-If the leaves of your cabbages are starting to yellow, this is a sign they need a boost of fertilizer.",
+                "step_image" : "cabbage_step10"
+            },
+            {
+                "step_name" : "STEP 11",
+                "process" : "Handpick pests and weeds from your cabbage. \n\nGo over your cabbages at least once a week and remove pests if necessary. This can require a close inspection, since many cabbage pests, such as cabbage worms, are small and difficult to see. \n\n-Cabbages have shallow roots. Pull out weeds growing near your cabbages by hand, so you don't damage or disturb the root system of your plants.",
+                "step_image" : "cabbage_step11"
+            },
+            {
+                "step_name" : "STEP 12",
+                "process" : "Let your cabbage grow about 70 days. Different varieties grow at different rates. \n\nHowever, generally speaking, most cabbages are ready for harvest within 70 days of the date you transplanted the seedlings. \n\n-It's okay to leave them a little longer before harvesting if you want the heads to grow larger. Most varieties produce heads weighing from 1 to 3 pounds (0.45 to 1.36 kg). \n\n-You can harvest spring cabbages young as loose greens, which will allow for repeated cuttings. \n\nDid You Know? Young, small cabbages tend to be sweeter and tastier than older cabbages with bigger heads.",
+                "step_image" : "cabbage_step12"
+            },
+            {
+                "step_name" : "STEP 13",
+                "process" : "Cut the cabbage head at the base. \n\nUse a clean, sharp knife to cut off the cabbage head as close to its base as possible. After cutting it, immediately move it to a shady spot or take it inside. \n\n-Remove the entire stem and root system after harvesting. This can help prevent disease buildup in your soil.",
+                "step_image" : "cabbage_step13"
+            },
+            {
+                "step_name" : "STEP 14",
+                "process" : "Wrap cabbages in plastic wrap to refrigerate them. \n\nAfter harvesting, refrigerate your cabbages as soon as possible. Plastic wrap or a plastic bag will help your cabbage heads retain moisture, so they'll last longer. \n\n-Properly stored cabbage will last at least 2 weeks in the refrigerator, and may last as long as 2 months.",
+                "step_image" : "cabbage_step14"
+            },
+            {
+                "step_name" : "STEP 15",
+                "process" : "Set up a root cellar to keep your fresh cabbage longer. \n\nIf you've harvested more cabbage than you can consume within a few weeks, store it in a root cellar if you want to keep it fresh. \n\n-Cabbage keeps well for 5 to 6 months if stored in a moist place with a consistent temperature of between 32 and 40 °F (0 and 4 °C).",
+                "step_image" : "cabbage_step15"
+            },
+            {
+                "step_name" : "STEP 16",
+                "process" : "Clean your cabbage heads thoroughly before cooking or eating. \n\nWhen you're ready to eat a cabbage, remove the outer leaves, then thoroughly wash the heads. The tightly packed leaves of cabbage heads often hide insects, along with bits of soil or other organic matter. \n\n-If you don't use the entire cabbage head, wrap the remainder up tightly and refrigerate it immediately.",
+                "step_image" : "cabbage_step16"
+            }
+        ]
     },
     {
         "id" : "4",
@@ -29,7 +240,119 @@
         "description" : "A herbaceous crop, pole sitao has trifoliate leaves. The flowers are in pairs and borne on the axil of the leaf which vary in color depending on the variety. Calyxes are generally green and purple. It is a viny annual crop that produces 30-60 cm long pods which hang in pairs with many seeds. Pods are either green, dark green, light green or purple. They are quick growing and every other day harvesting is often necessary. Pole sitao is an important crop in Asian countries like Malaysia, Thailand, Indonesia and the Plippines. It is also considered as one of the most important vegetables in certain parts of Taiwan and China.\n\nIn the Philippines, pole sitao is the most popularly produced vegetable among edible legumes because the pods, young shoots as well as the beans are available throughout the year. It is grown in home gardens, on dikes around paddy fields, under partially shaded areas as a companion crop or commercial crop.\n\nThe succulent young pods of pole sitao are eaten as whole pods and only need very light cooking. It can also be a good supplement to infant food whether cooked singly or mixed with other vegetables. The young leaves, shoots and sprouted seedlings can also be utilized as vegetables. Juices from the leaves are used for some medicinal properties.\n\nBureau of Agricultural Statistics (BAS), 2010 showed that the total land area planted to pole sitao is 14, 681 hectares with a total volume of production of 119, 453.02 metric tons. Central Luzon has the highest volume of production (32%), followed by Cagayan Valley (15%) and Davao Region (11%).\n\nPole sitao is a good source of protein, vitamin A, thiamin, riboflavin, iron, phosphorous and potassium. It is also a very good source of vitamin C, folate, magnesium and manganese.",
         "url" : "https://youtu.be/j6AUtQuMBME",
         "image" : "sitaw",
-        "category" : "3"
+        "category" : "3",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Plant bush beans for a reliable, easy harvest.\nThe 2 basic green bean varieties are bush beans and pole beans. The bushes of bush beans spread out along the ground, and only grow to about 1–2 feet (0.30–0.61 m) high. While bush beans only tend to produce a single harvest during a growing season, they are relatively easy to grow and don't require much tending.\n-Bush beans spread out horizontally while pole beans need to climb vertically. Bush beans do not need any sort of support in the garden, while pole beans require a trellis to climb.\n-Recommended bush varieties for most regions include Bush Blue Lake and Bountiful.",
+                "step_image" : "sitaw_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "Plant pole beans for a quicker, larger harvest.\nPole beans mature more quickly than bush beans do, which means that you'll be able to harvest pole beans sooner. They also grow beans continually during the growing season, so you'll get a larger number of beans from each individual plant than you would with bush beans.\n-Recommended pole varieties for most regions include Fortex and Kentucky Wonder.\n-Install a trellis for your pole beans to climb, such as a cattle panel, wooden lattice, or similar garden trellis.",
+                "step_image" : "sitaw_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Pick a sunny spot to plant your crop.\nGreen beans need plenty of sunlight to grow properly, so try to choose an area of your garden that receives full sun for your planting site.\n-Since green beans do not do well in heavily-moist soil, you should avoid shaded locations, since shade tends to help soil retain moisture for prolonged periods.",
+                "step_image" : "sitaw_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Amend the soil with compost until it has a loamy texture.\nGreen beans thrive in loamy soil, so if your garden has heavy clay soil or sandy soil, you should amend it with organic material before planting your green beans. Loamy soil is dark and crumbly. Test the soil by squeezing it in your hands. Clay soil stays in a ball and sandy soil falls apart completely. Loamy soil will hold its shape initially yet break apart when touched.\n-If working with clay-heavy soil, spread 2 inches (5.1 cm) of manure or compost over the soil and work it into the top 1 foot (30 cm) of soil using a shovel, garden fork, or rototiller. You could also mix sawdust or sand into the soil if it is especially heavy.\n-If working with sandy soil, spread the same amount of heavy manure or compost into the soil in the same manner, but skip the sawdust.\n-No matter what type of soil you have, you should also make sure that the area is free of weeds, trash, stones, and other debris.",
+                "step_image" : "sitaw_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Apply a 10-20-10 fertilizer to the soil before planting the seeds.\nGreen beans do not require a vast amount of nutrients, but a light application of fertilizer can help your plants produce a better crop. Use a shovel or trowel to mix the fertilizer into the top 3–4 inches (7.6–10.2 cm) of soil.\n-10-20-10 fertilizer is slightly richer in phosphorus than in nitrogen or potassium, so it is good for producing a strong crop yield. If you use a fertilizer high in nitrogen, then your plant will grow a lot of leaves but few beans.",
+                "step_image" : "sitaw_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Grow them in a container if you'd rather not sow them in the ground.\nIf you'd rather plant beans in a container or if you want to try growing beans indoors, you'll need to plant them in a reasonably large pot. Ideally, the container should be about 8 inches (20 cm) in diameter. Fill the pot with loose, nutrient-rich soil.\n-If you're planting pole beans in a container, stick a trellis or lattice in the container as well, to allow the bean plants to grow.\n-Since potted plants often dry out faster, you should check your soil moisture more often. You may need to water your green beans more if they're potted.",
+                "step_image" : "sitaw_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Sow the seeds outdoors after the last spring frost.\nThe best soil temperature during the planting stage is 55 °F (13 °C). Ideally, the temperature should warm to 77 °F (25 °C) once the plants reach the emergence stage. The minimal soil temperature for green bean seeds is 48 °F (9 °C).\n-If the soil temperature drops below this, even at night, the seeds may not germinate well, resulting in slow growth.",
+                "step_image" : "sitaw_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process" : "Set up a trellis if you're planting pole beans.\nA trellis or other fencing is not necessary if you are planting bush beans, but if you are going with a pole variety, growing the crop without some form of trellis will severely hinder the growth and yield of your plants.\n-The simplest support you can provide for pole beans is a cattle panel. This is a small section of wire fence measuring about 16 feet (4.9 m) by 5 feet (1.5 m). Simply set up the fence behind your growing area before planting the seeds.\n-You could also use a traditional pyramid trellis or a metal or plastic stake. Position either one just behind the planting location and make sure that the bottom 4 inches (10 cm) or so are underground.",
+                "step_image" : "sitaw_step8"
+            },
+            {
+                "step_name" : "STEP 9",
+                "process" : "Plant each seed 1–2 inches (2.5–5.1 cm) deep in the ground.\nEach seed should also be about 3–6 inches (7.6–15.2 cm) apart and covered lightly with loose soil. If your soil is a little on the sandy side, plant the seeds a little deeper. If you're planting multiple rows of beans, leave 1–2 feet (0.30–0.61 m) of room between each row.\n-Avoid soaking the seeds before planting or immediately after planting. When exposed to excessive moisture, green bean seeds have a tendency to crack and break.",
+                "step_image" : "sitaw_step9"
+            },
+            {
+                "step_name" : "STEP 10",
+                "process" : "Plant the bean seeds 1 inch (2.5 cm) deep if you're using a container.\nSow each seed roughly 2 inches (5.1 cm) apart. Use your fingers to press the individual seeds down into the soil. If you're planting pole beans, they'll need to be spaced out a little more.\n-Plant pole bean seeds 4–6 inches (10–15 cm) apart.\n-It's best not to start your seeds indoors, as green beans don't survive transplant well. Your seedlings likely won't thrive after transplanting.",
+                "step_image" : "sitaw_step10"
+            },
+            {
+                "step_name" : "STEP 11",
+                "process" : "Apply mulch to the soil where beans are planted.\nStandard wood chip mulch or straw works well with green beans. Mulch can prevent the soil from getting too cool or too warm, and it also helps the soil retain moisture. Apply roughly 3–4 inches (7.6–10.2 cm) of mulch over the plants after the soil has started to warm up.\n-Other good mulches include weathered straw and untreated lawn clippings. Make sure to use grass clippings that do not contain pesticides as mulch.\n-Mulch can also help prevent the spread of weeds.",
+                "step_image" : "sitaw_step11"
+            },
+            {
+                "step_name" : "STEP 12",
+                "process" : "Sow additional seeds every 2 weeks.\nYou can continue sowing green bean seeds every 2 weeks if you want a continual harvest that lasts all summer and into fall. Skip a planting if you plan to be gone with the green beans are ready to harvest.\n-Note, however, that excessively hot weather may cause the plants to drop their blossoms and pods prematurely. If you live in a region known for particularly hot summers, you may need to put a stop to your green bean growing season during the hottest months.",
+                "step_image" : "sitaw_step12"
+            },
+            {
+                "step_name" : "STEP 13",
+                "process" : "Stop planting new seeds 10 to 12 weeks before the first expected frost.\nFor a final fall crop of green beans, you should sow the seeds roughly 3 months before you expect the first frost to hit. The time of your first frost will vary depending on the region you live in.\n-If the first frost occurs before your final crop of green beans is ready to harvest, the buds or pods may drop prematurely. This is true even if the frost only occurs at night and the daytime temperatures are still within the ideal range.\n",
+                "step_image" : "sitaw_step13"
+            },
+            {
+                "step_name" : "STEP 14",
+                "process" : "Water bean plants that are planted in your garden daily.\nWater plants in the morning and skip watering on cloudy or rainy days. Water on sunny days so that the moisture does not soak the foliage. Give the plants about 1–1.5 inches (2.5–3.8 cm) of water weekly.\n-Later in the growth cycle, too much or too little water can cause the blossoms and pods to drop prematurely.\n-It is best not to water your green bean plants during the middle of day as evaporation can occur.",
+                "step_image" : "sitaw_step14"
+            },
+            {
+                "step_name" : "STEP 15",
+                "process" : "Water bean plants that are in containers once a day.\nGreen bean plants grown in a container—whether indoors or outdoors—should be watered daily. Plants tend to need more than 1⁄2 inch (1.3 cm) of water each week. Try to keep the soil moist, and give the plants extra water if you notice the soil beginning to dry out.\n-If the soil is nutrient-rich (and not sandy or clayey), you shouldn't need to add fertilizer more than once a month.",
+                "step_image" : "sitaw_step15"
+            },
+            {
+                "step_name" : "STEP 16",
+                "process" : "Apply balanced fertilizer sparingly.\nGreen beans grow well with minimal nutrients, and applying too much fertilizer could actually cause an overabundance of foliage yet a small yield of actual green beans.[16] As a general rule, you should only apply fertilizer if the nutrient levels of your soil are particularly low in a given area.\n-If your soil is nutrient-deprived, you can fertilize the plants once a week with a light application of balanced, fast-release fertilizer.\n-If your soil is somewhat on the sandy side, you might need to apply a fertilizer rich in nitrogen once the first seedlings form and once more once the plants reach their bud stage.\n-Green beans prefer soils with a pH between 6.0 and 6.5. If your soil is especially acidic or basic, you might need to apply fertilizers formulated to balance the soil pH.",
+                "step_image" : "sitaw_step16"
+            },
+            {
+                "step_name" : "STEP 17",
+                "process" : "Remove weeds as needed.\nWeeds can choke out green beans, making it difficult for them to emerge from the surface and strangling them once they do. Remove weeds as soon as you spot them to ensure a good crop of green beans.\n-When removing weeds, do not dig too deep. Green beans have shallow roots, and digging too deep into the soil can cause damage to these roots.\n-Do not weed when the foliage is wet, since doing so would increase the risk of disease.",
+                "step_image" : "sitaw_step17"
+            },
+            {
+                "step_name" : "STEP 18",
+                "process" : "Watch out for pests and diseases.\nThere are a few pests and diseases that green beans commonly fall victim to. Treat the plants with organic insecticides and fungicides as needed to keep these problems under control. Neem oil and sulfur are usually adequate fungicides.\n-Green beans are especially attractive to aphids, mites, cutworms, Mexican bean beetles, and Japanese beetles, and are especially weak against white mold and mosaic viruses.\n-Get rid of cutworms with a Bacillus thuringiensis insecticide. Get rid of aphids and mites by hosing them off your leaves with a hard burst of water.\n",
+                "step_image" : "sitaw_step18"
+            },
+            {
+                "step_name" : "STEP 19",
+                "process" : "Pick the green beans during an immature stage.\nThe pods should be firm, and you should be able to snap them off the plant without tearing the stems.[19] Green beans are usually about the size of a small pencil when ready to harvest. Harvest usually takes place 50 to 60 days from planting and 15 to 18 days after the full bloom stage.\n-If the beans are given more time to mature, the pods will become more stringy and develop a tough outer skin.\n-Note that the seeds inside should not be allowed to fully develop. At a fully developed, mature stage, the inner seeds will turn hard.",
+                "step_image" : "sitaw_step19"
+            },
+            {
+                "step_name" : "STEP 20",
+                "process" : "Harvest the beans from container-grown plants once the pods start to bulge.\nThis is a reliable visual signal that the beans are mature. In general, the beans will be mature and ready to harvest between 45 and 75 days after they're planted.\n-If you harvest the beans before they've fully matured and become stringy, your bean plants may produce a second harvest.",
+                "step_image" : "sitaw_step20"
+            },
+            {
+                "step_name" : "STEP 21",
+                "process" : "Break and string the harvested beans.\nBring the harvested beans into your kitchen, and fill a large pot with water. Snap the tip off of each green bean, and remove the long string from the front side of the bean. Then, snap each bean into 2 or 3 separate pieces. Drop the broken beans into the pot of water to rinse the dirt off of them.\n-If you prefer your green beans whole, you can skip the breaking step. It's still best to string the beans shortly after they are harvested, though.",
+                "step_image" : "sitaw_step21"
+            },
+            {
+                "step_name" : "STEP 22",
+                "process" : "Store the green beans in a refrigerator.\nKeep harvested green beans in an airtight container and store for about 4 to 7 days in your refrigerator.\n-Freeze, can, or pickle green beans for long-term storage. The beans can be kept in the freezer for 3–6 months.",
+                "step_image" : "sitaw_step22"
+            }
+        ]
     },
     {
         "id" : "5",
@@ -37,7 +360,74 @@
         "description" : "Squash is the collective name given to several species of plant in the genus Cucurbita, including C. maxima, C. mixta , C. moschata and C. pepo, which are widely grown for their edible fruit. Squash plants are are herbaceous annual plants which are either trailing vines or bush-like in morphology. Vines generally have large, lobed leaves and long vines which can climb by attaching to surfaces with their tendrils. Bushes generally take up less space than the sprawling vine types and may have prickly leaves. Squash plants produce yellow or orange flowers and green, white or yellow fruit in a variety of shapes and sizes with smooth or ridged skin. Vining squash varieties can reach several meters in length and, as annuals, survive only one growing season. Squash originate from North and Central America and are referred to by their cultivar name e.g. acorn squash, butternut squash, spaghetti squash, zucchini, banana squash, hubbard squash and buttercup squash.\n\nUses\nSquash fruit can be cooked and eaten as a vegetable. Some varieties are grown as ornamentals.\n\nPropagation\nBasic requirements Squash is a warm-season crop, requiring lots of sun and good drainage to develop optimally and growing best at temperatures between 18 and 25°C (65–75°F). Squash will yield best if grown in a fertile, well-draining soil, rich in organic matter and with a pH between 6.5 and 7.5. Squash should be planted in full sun and provided with ample soil moisture due to their shallow root system. Vining varieties can grow to very large sizes and require a good deal of space. Smaller bush varieties are available for more modest spaces. Propagation Squash is propagated from seed and can be direct seeded or sown indoors and transplanted. If direct seeding,seeds should be sown after the last frosts and when the soil has warmed to at least 15.6°C (60°F). Sow 1–2 seeds 1.3–2.5 cm (0.5–1.0 in) deep, at least 90 cm (~3 ft) apart if growing bush varieties and 120–150 cm (4–5 ft) apart if growing vining varieties. Allow a further 1–3 m (6–10 ft) between rows depending on the variety. If transplanting, seeds should be sown 3–4 weeks before the last frost date in your area and transplanted before the plants develop their second set of true leaves. Seeds in sown both indoors and out require lightly moist soil for germination, care should be taken to avoid overwatering. Seeds should germinate in 5–10 days depending on the soil temperature. General care and maintenance Squash vines are sprawling and require plenty space to grow. Vines can be trained to grow on a trellis or fence. Squash also require a continuous supply of water and where drip irrigation is not being used, plants should be watered deeply once per week, providing at least an inch of water. Shallow watering or watering less frequently encourages a shallow root system. Mulches can be used to conserve soil moisture and black polyethylene mulch has the advantage of warming the soil. All squash varieties produce both male and female flowers (monoecious) and are pollinated by insects such as bees. Harvesting Squash is ready to harvest when the rind is hard and cannot be punctured with a fingernail. The skin of mature fruits is dull and dry in appearance, especially when compared with the shiny skin of an immature fruit.",
         "url" : "https://youtu.be/dERQ_XwQtrY",
         "image" : "kalabasa",
-        "category" : "2"
+        "category" : "2",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Find out when to plant pumpkins in your region. Pumpkin seeds do not germinate in cold soil, so they need to be planted after the chance of frost has passed. Plan to plant pumpkins in late spring or early summer for a fall harvest. Pumpkins typically take 95 to 120 days to mature.\n-If you celebrate Halloween and would like to have pumpkins in time for the holiday, plant them in late July. If you want it in early July, plant in early March.",
+                "step_image" : "squash_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "Choose a planting spot and prepare the soil. Pumpkins grow on vines and need a good amount of space to thrive. Choose a place in your yard with the following qualities:\n-20 or 30 feet (6.1 or 9.1 m) of open space. Your pumpkin patch doesn't have to take up your whole yard. You can plant it along the side of your house, or along the fence in your backyard.\n-Full sun. Don't choose a spot under a tree or in the shadow of a building. Make sure the pumpkins will get plenty of sun all day long.\n-Soil with good drainage. Clay-based soils don't absorb water quickly, and aren't as conducive to growing pumpkins. Choose a spot that doesn't have standing water after heavy rains.\n\t-To give the pumpkins an extra boost, prepare your soil beforehand by composting it. Dig large holes where you plan to plant the pumpkins and fill them with a compost mixture one week before planting.",
+                "step_image" : "squash_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Choose pumpkin seeds. Go to your local nursery or order seeds from a catalog to use in your pumpkin patch.[1] There are many different varieties of pumpkins, but for the home grower's purposes they fall into three main categories:\n-Pie pumpkins, which are meant to be eaten.\n-Large decorative pumpkins that can be carved into jack o'lanterns. The seeds in these pumpkins are edible, but the flesh is not flavorful.\n-Small decorative pumpkins, often called mini pumpkins.\n",
+                "step_image" : "squash_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Plant your seeds in \"hills.\" Build a small mound of dirt and plant the seed 1–2 inches (2.5–5.1 cm) deep. The hill helps improve soil drainage and allows the sun to heat the soil faster, speeding up germination.\n-Plant 2 or 3 seeds within a few inches of one another, in case one doesn't sprout for some reason.\n-It doesn't matter which end of the seeds points up. If the seeds are viable, they will grow either way.",
+                "step_image" : "squash_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Plant pumpkins in widely spaced rows. If your pumpkin variety grows along creeping vines, space the hills in the same row 12 ft (3.7 m) apart, and space the rows 6 to 10 ft (1.8 to 3 m) apart, depending on variety size. \"Bush-type\" varieties that grow on shorter vines need 8 ft (2.4 m) of space in all directions.",
+                "step_image" : "squash_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Cover the planted seeds with compost. If you composted the soil before planting, you can skip this step. If not, add a thin layer of compost or mulch in the areas where you planted seeds. The compost will help keep weeds out and nourish the seeds.\n-With proper care, the pumpkin plants should sprout within about a week.",
+                "step_image" : "squash_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Water the pumpkin plants when the soil moisture is low. Pumpkin plants need a lot water, but they shouldn't get too much. Make a habit of watering them when the soil seems a little dry, rather than adding more water to wet soil. Deep, infrequent waterings are ideal.\n-When you do water the plant, use a lot of water and let it soak deep into the soil. Pumpkin plants' roots run several inches or feet down, depending on the stage of growth, and it's important that the water reaches them.\n-Try not to get water on the pumpkin leaves. This encourages the growth of a fungus called powdery mildew, which can cause the leaves to wither and the plant to die. Water in the morning, rather than at night, so any water that gets on the leaves has time to dry in the sun.\n-When the pumpkins themselves begin to grow and turn orange, decrease the amount of water you use. Stop watering entirely about a week before you plan to harvest the pumpkins.",
+                "step_image" : "squash_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process": "Fertilize the pumpkin plants. When the plants first sprout (in about a week or two), adding fertilizer encourages health pumpkin plant growth. Go to your local nursery and ask for a fertilizer you can add to your pumpkin bed.\n",
+                "step_image" : "squash_step8"
+            },
+            {
+                "step_name" : "STEP 9",
+                "process" : "Control weeds and pests. In order to make sure your plants produce healthy pumpkins, you'll have to monitor them throughout the growing process.\n-Weed the patch often. Don't let the growth of weeds crowd out the pumpkin plants or absorb the nutrients they need to thrive. Plan to weed a few times a week.\n-Check the pumpkin leaves and blossoms for beetles, which eat plant tissue and ultimately kill the pumpkin plant. Scrape them off the plant a few times a week.\n-Mulch around your pumpkins to keep weed pressure down and conserve soil moisture.\n-Aphids are pests that threaten a lot of garden plants. They can be found on the undersides of the leaves, and if you don't take care of them, they'll kill the plants quickly. Spray them off with water in the morning so the leaves have time to dry.\n-If necessary, use an organic pesticide to rid your plants of pests. Ask about products at your local nursery.",
+                "step_image" : "squash_step9"
+            },
+            {
+                "step_name" : "STEP 10",
+                "process" : "Check to see if the pumpkins are ready. The pumpkins should be bright orange in colour (depending on the species) with a hard shell. Their stems and often the vine itself should be starting to dry out and wither.",
+                "step_image" : "squash_step10"
+            },
+            {
+                "step_name" : "STEP 11",
+                "process" : "Don't harvest pumpkins that are still soft. They won't keep for more than a few days before spoiling.",
+                "step_image" : "squash_step11"
+            },
+            {
+                "step_name" : "STEP 12",
+                "process" : "Cut the pumpkins' stems. Use a pair of shears to cut the stem, leaving it a few inches long. Don't break off the stems, since this will cause the pumpkins to rot.",
+                "step_image" : "squash_step12"
+            },
+            {
+                "step_name" : "STEP 13",
+                "process" : "Store the pumpkins in a cool, dry place. Keep them away from humidity, damp, and direct sunlight. They do not need refrigeration. Pumpkins keep for many months after they have been harvested.\n-A mild chlorine rinse before storage can discourage mold and fungi. Use a mix of 1 cup (240 mL) household chlorine bleach and 5 gallons (18.9 L) cold water.",
+                "step_image" : "squash_step13"
+            }
+        ]
     },
     {
         "id" : "6",
@@ -45,7 +435,69 @@
         "description" : "Moringa, (Moringa oleifera), also called horseradish tree or drumstick tree, small deciduous tree (family Moringaceae) native to tropical Asia but also naturalized in Africa and tropical America. Flowers, pods, leaves, and even twigs are cooked and eaten. The leaves, which can also be eaten raw when young, are especially nutritious and are high in iron, potassium, and vitamin C. A horseradish-flavoured condiment is prepared from the crushed roots. Ben oil, extracted from the seeds, is used by watchmakers and in cosmetics; perfume makers value it for its retention of scents. Moringa trees can reach a height of about 9 metres (30 feet) and have corky gray bark. The leaves are bi- or tripinnately compound and have oval-shaped leaflets with conspicuous swellings (pulvini) where the parts join. The plants bear scented clusters of white pealike flowers with five stamens (male parts) held to one side. The angled daggerlike fruits sometimes grow to 45 cm (18 inches) long and are explosively dehiscent.",
         "url" : "https://youtu.be/liFdBSrM62Q",
         "image" : "malunggay",
-        "category" : "2"
+        "category" : "2",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Purchase moringa seeds online. Since they are not common plants, local gardening stores may not carry moringa seeds. Many retailers online offer the seeds for sale in large quantities. Purchase a number of seeds that is right for you.\n-If you have leftovers, a moringa seed may be eaten once the outer shell is removed. Chew the seed thoroughly.\n",
+                "step_image" : "malunggay_step1"
+            },
+            {
+                "step_name" : "STEP 2",
+                "process" : "Plant a cutting instead of seeds if you have access to a mature tree. Moringas can grow from a healthy branch cut from a mature tree. Cut off a branch 3 feet (0.91 m) long and 1 inch (2.5 cm) in diameter. Choose a healthy looking branch from the tree to remove. Use pruning shears to make a diagonal cut on the branch at both ends. Keep the branch at least 3 feet (0.91 m) long.",
+                "step_image" : "malunggay_step2"
+            },
+            {
+                "step_name" : "STEP 3",
+                "process" : "Fill a 10 US gal (38 L) pot with 85% soil, 10% sand, and 5% compost. Moringas need a well-draining potting mixture, otherwise, the seeds will become waterlogged. Mixing potting soil with sand and compost will create a nutritious and well-drained mix for your new moringa seeds.\n-Use more or less sand and compost depending on the soil you use.",
+                "step_image" : "malunggay_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Plant your moringa in the pot. Moringas cannot survive the winter if it drops below 32 °F (0 °C), so keep moringas in pots to transport them inside and outside easily. If your climate does not drop below freezing, you can plant moringas directly outside in a similar soil mixture.\n-If you’re planting seeds, remove the shell and plant them 1 inch (2.5 cm) deep and 2 inches (5.1 cm) apart. Use your finger to push holes into the potting mixture.\n-If you’re planting a cutting, expose the nodes of a cutting and push it ⅓ of the way into a 15 US gal (57 L) pot.[7] Pack the dirt tightly with your hands so that the cutting is able to stand on its own and so the potting mixture is firm around it.",
+                "step_image" : "malunggay_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Water the soil with a watering can until it is damp. The soil should be saturated, but not overwatered. If there is standing water on the top of the soil, you’ve watered too much and your soil likely has poor drainage. Check the moisture by sticking your finger into the soil down to the first knuckle.\n-Water once a week or more depending on your climate so the soil stays damp.",
+                "step_image" : "malunggay_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process" : "Transplant moringas grown from seeds when they are 6 to 8 in (15 to 20 cm). When moringas reach this size, they will begin competing for resources in the soil and need to be moved to individual pots. Carefully use a ruler or transplant tool to loosen the soil around one of the seedlings. Lift the root system and place it into the pot.",
+                "step_image" : "malunggay_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Keep your moringa in a sunny indoor or outdoor spot. To grow healthy and strong, your moringa tree will need around 6 hours of direct sunlight. Moringa trees are from a tropical climate, so they need the maximum amount of sunlight you can provide. Keep them in an area that receives full sun throughout the day.",
+                "step_image" : "malunggay_step7"
+            },
+            {
+                "step_name" : "STEP 8",
+                "process" : "Water your moringa once a week. Even though moringas are drought-tolerant, they should still have a weekly watering while they are establishing. Put your finger into the soil up to the second knuckle. If it feels dry, water. Be careful not to overwater the soil, or else the roots will become waterlogged and possibly develop rot.\n-If it has rained during the week, your moringa has gotten enough water for the week.Water your moringa once a week. Even though moringas are drought-tolerant, they should still have a weekly watering while they are establishing. Put your finger into the soil up to the second knuckle. If it feels dry, water. Be careful not to overwater the soil, or else the roots will become waterlogged and possibly develop rot.\n-If it has rained during the week, your moringa has gotten enough water for the week.",
+                "step_image" : "malunggay_step8"
+            },
+            {
+                "step_name": "STEP 9",
+                "process" : "Use pruning shears to cut back moringa trees. When moringas start to grow, they will grow rapidly over the course of a year. Once the trees reach 8 to 10 feet (2.4 to 3.0 m), cut them back so they are at your desired level. Any branches you remove can be dried and propagated to plant another tree.",
+                "step_image" : "malunggay_step9"
+            },
+            {
+                "step_name" : "STEP 10",
+                "process" : "Store moringa indoors when temperatures are below freezing. If you live in a temperate climate, you will want to store your tree inside your home or in a greenhouse during the winter. Moringas are susceptible to the frost and will not survive through the winter.\n-Moringas can grow up to 6 feet (1.8 m) tall in a year, so plan accordingly with how much space you have available.\n-Moringa can be restarted each year with cuttings taken from the previous season. Cuttings from moringa trees are the same age as the tree it was cut from.",
+                "step_image" : "malunggay_step10"
+            },
+            {
+                "step_name" : "STEP 11",
+                "process" : "Harvest seed pods when they are 3⁄8 to 1⁄2 inch (9.5 to 12.7 mm) in diameter. The seed pods, or “drumsticks,” can be pulled and used in recipes and teas. If you wait until they ripen, the inside may have a stringy and less desirable consistency.\n-Boil the seed pods until they are soft and squeeze the inner flesh out to eat. The exterior of the pod is fibrous and inedible.",
+                "step_image" : "malunggay_step11"
+            },
+            {
+                "step_name" : "STEP 12",
+                "process" : "Pull leaves after the moringa is 3 feet (0.91 m) tall. Moringa leaves are considered a “superfood” and can be pulled at any time once the tree is over 3 feet (0.91 m) tall. This way, as you pull the leaves off by hand, the branches will have grown strong enough and won’t break.\n-Steep the moringa leaves to make an herbal tea, or add them to your smoothies or salads for added nutrients.",
+                "step_image" : "malunggay_step12"
+            }
+        ]
     },
     {
         "id" : "7",
@@ -53,7 +505,84 @@
         "description" : "Water Spinach (Ipomoea aquatica) is a member of the Convolvulaceae (Morning glory) family and the same genus as the sweet potato (Ipomoea batatas). Water spinach is an herbaceous aquatic or semi-aquatic perennial plant of the tropics and subtropics. It has a creeping growth habit but may grow erect in water. There are two major cultivars of water spinach. Ching Quat, also known as “green stem” water spinach, has narrow leaves and white flowers and is usually grown in moist soils. Pak Quat, also known as “white stem” water spinach, has arrow-shaped leaves and pink flowers and is grown in aquatic conditions, similar to rice.\n Almost all parts of the young plant tissue are edible, but the tender shoot tips and younger leaves are preferred. Other names of water spinach include: water convolvulus, swamp cabbage (English); kankon, you-sai (Japanese); ong tsoi, weng cai (Cantonese); toongsin tsai (Mandarin); kang kong (Filipino, Malaysian); kang kung, rau muong (Vietnamese); pak bung (Thai); batata acquatica, cancon (Portuguese). \nIpomoea aquatica is a federal noxious weed in the United States. Under authority of the Federal Noxious Weed Act, the USDA Animal and Plant Health Inspection Service (APHIS) prohibits the importation and interstate movement of this species, except under a USDA-issued noxious weed permit. Water spinach is on the federal noxious weed list because it becomes an established weed in fresh water-ways in tropical climates. It has become an established weed in several southern states in the United States. \nThe UMass Extension Vegetable Team has worked with federal and state regulators to create a permitting system for the legal growth and sale of water spinach in Massachusetts. Since water spinach is extremely sensitive to frost, it does not pose a threat to water systems in Massachusetts. To find out about growing this crop legally in the United States, contact the APHIS web site for more information. \n\nProduction\nWater spinach is a frost sensitive plant. Optimal temperatures for growth are between 75° and 85° F and chilling injury can occur below 50° F. The cultivar Ching Quat is grown in moist soils, often in beds. Direct seed or transplants may be used. Many Asian growers in Massachusetts will soak the seed until germination to ensure the seed is viable. Growers plant in beds with 6 – 10 seeds per foot in rows that are 6 – 8 inches wide. Plant stems are not strong, but plants grown in beds support each other and produce longer stems with less branching, which is what the market prefers.\nWater spinach needs much more water than most other vegetable crops. This increased irrigation can leach out readily available nutrients, so it is recommended to use slow-release forms of fertility. Harvest of the entire plant can be made 50 to 60 days after planting. Plants are harvested by cutting the stem close to the ground and then nitrogen is applied to encourage re-growth. Shoots regrow readily and in Massachusetts, growers will get two to three cuttings of water spinach before frost. The cultivar Pak Quat requires the same aquatic environment as paddy rice, meaning it can’t be grown viably in New England.",
         "url" : "https://youtu.be/q9dFCCDUCCI",
         "image" : "kangkong",
-        "category" : "2"
+        "category" : "2",
+        "steps" : [
+            {
+                "step_name" : "STEP 1",
+                "process" : "Soak seeds in water a day before planting. This plant loves water, and soaking the seeds ahead of planting will start the germination process. Just place them in a shallow basin with a thin covering of water.\n-You can find kangkong seeds online or at some gardening stores. You'll need at least 10 seeds to get a small crop of water spinach.\n-Plants grown from seeds may not do as well as plants taken from cuttings. They also take longer to get established.",
+                "step_image": "kangkong_step1"
+            },
+            {
+                "step_name": "STEP 2",
+                "process": "Plant the seeds inside in trays to start. Place potting soil in your seedling tray. Create a small hole that's about 0.5 in (13 mm) deep. Drop in 1-2 seeds in each hole, and cover the seeds up with potting soil.\n-The tray should be at least 2 to 3 inches (5.1 to 7.6 cm) deep so the plant can start developing roots.",
+                "step_image": "kangkong_step2"
+            },
+            {
+                "step_name": "STEP 3",
+                "process": "Transplant the seedlings when they reach 4 to 6 inches (10 to 15 cm). These plants need a decent amount of growth before you move them outside. Once they reach this height, start checking for leaves.\n-They should have 4 well-established leaves before you move them.",
+                "step_image": "kangkong_step3"
+            },
+            {
+                "step_name" : "STEP 4",
+                "process" : "Start with cuttings from another plant for a quicker method. Wait at least a day after harvesting before you take a cutting. Cuttings should be at least 2 to 3 inches (5.1 to 7.6 cm) long. Place the cuttings in water, stem side down. Leave them in the water, changing it out every day or so.\n-In a couple of days, they should start growing roots. Wait until day 9 or so before you try to plant them. They should have a well-established root system by then.",
+                "step_image": "kangkong_step4"
+            },
+            {
+                "step_name" : "STEP 5",
+                "process" : "Wait until nighttime temperatures rise above 50 °F (10 °C). This plant thrives in a temperature of 75 to 85 °F (24 to 29 °C). However, it can be damaged if the temperatures drop below 50 °F (10 °C). Make sure your area has warmed up enough before you move your plants outside.\n-Definitely wait until several weeks after the last frost before taking these plants outside.\n-Don't plant your kangkong until the nighttime temperature remains well above 50 °F (10 °C).\n",
+                "step_image": "kangkong_step5"
+            },
+            {
+                "step_name" : "STEP 6",
+                "process": "Dig a small hole with a spade or your hand. The hole should be just big enough to fit the seedling or cutting. You can just use your hand with a gardening glove if the ground is soft enough. If it's not, you'll need to use a small spade to make the hole.\n-Do not put plants closer than about 6 inches (15 cm) apart.\n",
+                "step_image": "kangkong_step6"
+            },
+            {
+                "step_name" : "STEP 7",
+                "process" : "Plant the seedlings or cuttings. Put the seedling in the hole you've just dug. Fill in the hole with dirt, and pat down the top of the soil. Make sure the plant is solidly in the ground before moving on to the next one.",
+                "step_image": "kangkong_step7"
+            },
+            {
+                "step_name": "STEP 8",
+                "process": "Water the plants thoroughly. These plants thrive on water, so once you get them in the ground, provide enough water to soak the ground. You want to get them well established with plenty of water.\n-You should irrigate this crop every 1-2 days.",
+                "step_image": "kangkong_step8"
+            },
+            {
+                "step_name": "STEP 9",
+                "process": "Sow seeds outside if you prefer. Start with rows that are 6 to 8 inches (15 to 20 cm) wide. For every 1 foot (30 cm), plant 6-10 seeds, spreading them out evenly along the row, spacing them out side-to-side as well as lengthwise along the row. Plant the seeds about 0.5 in (1.3 cm) deep, and cover them with soil.\n-Wait until the daytime temperature is consistently over 75 °F (24 °C).",
+                "step_image": "kangkong_step9"
+            },
+            {
+                "step_name": "STEP 10",
+                "process": "Choose a large pot or basin for your kangkong. Kangkong can grow in a pot of water. You can choose as large a pot as you want. However, keep in mind that you need to be able to reach to the middle of the pot to harvest your plants, so keep it under 4–5 feet (1.2–1.5 m).\n-You'll also want to be able to inspect your plants for diseases, so make sure the pot is small enough for that purpose.",
+                "step_image": "kangkong_step10"
+            },
+            {
+                "step_name": "STEP 11",
+                "process": "Set a steel mesh into the top of the pot. This mesh will hold the cuttings just under the water. That way, they won't sink to the bottom, but they'll still get plenty of water.\n-You can find steel mesh online or at home improvement stores. You'll need enough to stretch across your pot, so measure ahead of time.\n-If your mesh is fine enough, you can actually germinate the seeds on top of the mesh. However, if it's not very fine, you'll need to use cuttings.\n",
+                "step_image": "kangkong_step11"
+            },
+            {
+                "step_name": "STEP 12",
+                "process": "Pick the Pak Quat or \"white stem\" variety for your basin. This variety grows best in aquatic situations like a large pot or basin. You might also find it under the name \"water ipomea.\"\n-The other variety, Ching Quat, can also be grown in water, but it can be planted in a garden, as well.",
+                "step_image": "kangkong_step12"
+            },
+            {
+                "step_name": "STEP 13",
+                "process": "Wait until your cuttings have well-established roots. Before putting them in your main growing pot, grow the roots in a cup or pitcher of water. That way, they'll start out happier and healthier in your large pot.\n-Your roots should have about 9 days of growth on them.",
+                "step_image": "kangkong_step13"
+            },
+            {
+                "step_name": "STEP 14",
+                "process": "Place the cuttings on top of the mesh. Set the cuttings in the top of the container. You can prop the cuttings up against each other or even lightly tie a piece of string around them. Eventually, they will stand up on their own when their roots start sinking into the mesh below.\n-Make sure the leaves are above the surface.",
+                "step_image": "kangkong_step14"
+            },
+            {
+                "step_name": "STEP 15",
+                "process": "Fertilize the water. Since you're not growing this plant in the soil, you'll need to provide nutrients. Select a fertilizer that is high in nitrogen. Use about 2 tablespoons (30 mL) of the garden fertilizer per gallon of water in the container.\n-If you're not using liquid fertilizer, mix the fertilizer with a little water before pouring it into the container.\n",
+                "step_image": "kangkong_step15"
+            }
+        ]
     },
     {
         "id" : "8",
@@ -61,7 +590,84 @@
         "description" : "Lettuce, Lactuca sativa, is a leafy herbaceous annual or biennial plant in the family Asteraceae grown for its leaves which are used as a salad green. The lettuce plant can vary greatly in size, shape and leaf type but generally, the leaves of the plant form a dense head or loose rosette. The stem of the plant is short, with larger leaves arranged at the bottom and becoming progressively smaller further up the stem. Leaves can be smooth or curly and are usually green or red in color. The lettuce plant can grow to a height of 30–100 cm (12–40 in) in height and is typically grown as an annual, harvested after only one growing season. Lettuce may be referred to as garden lettuce and is believed to originate from Asia Minor and the Middle East. \n\nUses \nLettuce is primarily eaten raw as a salad green. Some varieties can be cooked and eaten as a vegetable.\n\n Propagation \nRequirements Lettuce is a cool season crop which will grow optimally at daytime temperatures of 15–20°C (59–68°F). The plant can be grown in a wide range of soils as long as it is fertile and moisture retaining due to the small root system of the plant. It is often grown in alkaline soil (pH greater than 7.0) but will not tolerate acid soil. Heat tolerant varieties can be grown over the summer months and care should be taken to protect the leaves from strong sun by shading or covering to prevent the plants from bolting. Sowing seeds Lettuce seeds can be sown directly in the garden or field as soon as the soil can be worked as the seeds will germinate at temperatures of 4.4°C (40°F) and above and seedlings will tolerate a light frost. Seeds should be sown 0.3–0.6 cm (1/8–1/4 in) deep and 2.5 cm (1 in) apart, leaving 50 cm (20 in) between rows. Cover the seeds lightly, tamp the soil and water the seeds. Seedlings should emerge in 2–15 days. When the plants have 2–3 true leaves then they should be thinned to a final spacing of 25–45 cm (10 to 18 in) depending on the variety. Plant new seeds every 2–3 weeks for a continuous harvest. Transplants Sow seeds in seedling trays in a sterile seed starting mix at a rate of approximately 3–4 seeds per inch (2.5 cm). Young plants can be potted up into larger pots or cell trays when they are about 2 weeks old. Plant transplants in the garden after hardening off, spacing plants 25–45 cm (10 to 18 in) (depending on variety) and allowing 50 cm (20 in) between rows. Plant new seeds every 2–3 weeks for a continuous harvest.",
         "url" : "https://youtu.be/VMH0ut0Ory4",
         "image" : "lettuce",
-        "category" : "1"
+        "category" : "1",
+        "steps": [
+            {
+                "step_name": "STEP 1",
+                "process": "Choose a lettuce variety that thrives indoors. Although most lettuce plants can stay healthy indoors, you'll have better success with some varieties over others. Buy any of these lettuce varieties, which are known for growing well inside, from a garden center or plant nursery:[1]\n-Garden Babies\n-Merlot\n-Baby Oakleaf\n-Salad Bowl\n-Lollo Rosa\n-Black-Seeded Simpson\n-Tom Thumb\n-Red Deer Tongue",
+                "step_image": "lettuce_step1"
+            },
+            {
+                "step_name": "STEP 2",
+                "process": "Fill a pot with a seed starting soil mix. Seed starting mixes are lightweight, they help your plants’ roots grow, and they're well-draining to prevent overwatering. If you cannot find a seed starting mix, you can also create a soil made from equal parts peat moss or coir, vermiculite, and sand.[2]\n-Each lettuce plant requires 4–6 in (10–15 cm) of space and a depth of about 8 inches (20 cm). Choose a pot that can accommodate these measurements.\n-Purchase pots with drainage holes on the bottom. Place a saucer underneath the pot to catch draining water.\n-You can buy seed starting soil mixes from most plant nurseries or garden centers.",
+                "step_image": "lettuce_step2"
+            },
+            {
+                "step_name": "STEP 3",
+                "process": "Plant your seeds approximately 1 in (2.5 cm) apart. Dig a 4–6 in (10–15 cm) deep hole and place your seeds inside at about 1 in (2.5 cm) apart. Limit your seeds to 4 per pot to avoid overcrowding the lettuce as it grows. If you want to plant more than 4 seeds, prepare several pots ahead of time.",
+                "step_image": "lettuce_step3"
+            },
+            {
+                "step_name": "STEP 4",
+                "process": "Sprinkle your seeds lightly with potting soil and water. Take a handful of potting soil and gently sprinkle it over the newly-planted seeds. Fill a spray bottle with water and gently mist the seeds to avoid washing them away.\n",
+                "step_image": "lettuce_step4"
+            },
+            {
+                "step_name": "STEP 5",
+                "process": "Plant lettuce seedlings if you don't want to wait for seeds to sprout. If you don't want to wait for seeds to sprout, you can plant lettuce seedlings instead. Use the same technique as you would for lettuce seedlings, planting no more than 4 per pot.\n-You can buy lettuce seedlings at many plant nurseries or garden centers",
+                "step_image": "lettuce_step5"
+            },
+            {
+                "step_name": "STEP 6",
+                "process": "Mist your seeds daily until they sprout into seedlings. When they sprout, give your lettuce at least 1 in (2.5 cm) of water per week. Poke your finger in the soil once or twice a day and water your lettuce whenever the soil feels dry.\n-The soil should be moist but not waterlogged.\n-Another way to test the moisture level of soil is lifting up the pot. If it feels heavy, the soil is saturated with water.\n",
+                "step_image": "lettuce_step6"
+            },
+            {
+                "step_name": "STEP 7",
+                "process": "Grow your lettuce in room temperature conditions. Lettuce grows best at temperatures around 65–70 °F (18–21 °C). Turn on the air conditioner or heater as needed to keep your plants at an even, sustainable temperature.\n-If the weather is warm or cool enough outside, you can move your plants outdoors periodically to get fresh air.",
+                "step_image": "lettuce_step7"
+            },
+            {
+                "step_name": "STEP 8",
+                "process": "Place your lettuce plant near a sunny window or a fluorescent grow light. Lettuce plants grow best with direct sunlight. If you're in a climate with very little sun, purchase a grow light from a plant nursery and position it about 12 inches (30 cm) overhead.\n-Lettuce plants need at least 12 hours of direct sunlight a day, with 14-16 hours the preferred amount.\n-Keep in mind that plants grown under a grow light generally need more time under the light than they would with natural sunlight. Aim closer to 14-16 hours instead of 12+ hours if you're using a grow light.",
+                "step_image": "lettuce_step8"
+            },
+            {
+                "step_name": "STEP 9",
+                "process": "Water your lettuce whenever the leaves wilt. Lettuce plant leaves visibly wilt when they are thirsty. If your plant's leaves droop, water the lettuce until its soil is moist, but not soaking wet or waterlogged.\n-The hotter the temperatures, the more often you will need to water your lettuce",
+                "step_image": "lettuce_step9"
+            },
+            {
+                "step_name": "STEP 10",
+                "process": "Fertilize your lettuce 3 weeks after planting it. Lettuce needs nitrogen-rich soil to grow, so spray a liquid fertilizer on the plant 3 weeks after you planted it, or when the first leaves grow on the plant. Spray the fertilizer mainly near the soil, avoiding the lettuce leaves to prevent burning them.\n-Use a liquid fertilizer. Granular fertilizers need to be mixed into the soil.\n-Organic alfalfa meal or a nitrogen-rich, slow-release fertilizer both work well with lettuce.\n-You can also use fish or seaweed emulsion fertilizers but they can emit a strong odor and are less recommended for indoor lettuce plants.",
+                "step_image": "lettuce_step10"
+            },
+            {
+                "step_name": "STEP 11",
+                "process": "Begin harvesting your lettuce 30-45 days after planting. On average, lettuce takes about 30-45 days after you plant the seeds to mature. Make a note on your calendar to begin harvesting after about 30 days has passed.\n-Indoor lettuce plants grow and mature continually, so you can continue harvesting your plant after you've picked it for the first time.\n-Mature indoor lettuce usually grows to about 4 inches (10 cm) tall.\n-See How to Harvest Romaine Lettuce for specific instructions relating to this type of lettuce.",
+                "step_image": "lettuce_step11"
+            },
+            {
+                "step_name": "STEP 12",
+                "process": "Harvest your lettuce in the morning. Morning is when your plant's most hydrated and at its strongest. If possible, harvest your plant before the late morning or afternoon to attain a healthier yield.\n-If you can't harvest in the morning, avoid mid-to-late afternoon, which is when your plant's least hydrated.",
+                "step_image": "lettuce_step12"
+            },
+            {
+                "step_name": "STEP 13",
+                "process": "Cut off the outer leaves. Do not harvest your indoor lettuce plant all at once. As long as you continue taking care of it, you can harvest it for several months. Cut 3-4 of the outer leaves at a time with garden shears or scissors, leaving the rest of the plant to heal and grow back later on.\n-Avoid picking the lettuce's crown or center. Limit yourself to the outer leaves to boost its overall harvesting yield.\n",
+                "step_image": "lettuce_step13"
+            },
+            {
+                "step_name": "STEP 14",
+                "process": "Refrigerate your lettuce for 5-8 days after harvesting. Depending on the variety, lettuce can last anywhere between 3-10 days in the refrigerator. Check how long your specific variety lasts for and, after placing the lettuce in the fridge, plan to use it by its expiration date.\n-If you don't think you'll use your lettuce in 5-8 days, wait a few days before harvesting your plant.",
+                "step_image": "lettuce_step14"
+            },
+            {
+                "step_name": "STEP 15",
+                "process": "Harvest your lettuce again in about 2 weeks. Your plant requires about 2 weeks to heal and grow more leaves before it is ready to harvest again. After your first time harvesting, wait 2 weeks in-between harvesting to keep your plant healthy and able to grow more leaves.\n-Wait at least 2 weeks before harvesting young plants, which may take time to grow strong after being harvested.\n-Sow additional seeds every 2 weeks to extend your harvest.",
+                "step_image": "lettuce_step15"
+            }
+        ]
     },
     {
         "id" : "9",
@@ -69,7 +675,94 @@
         "description" : "Bottle gourd, (Lagenaria siceraria), also called white-flowered gourd or calabash gourd, running or climbing vine of the gourd family (Cucurbitaceae), native to tropical Africa but cultivated in warm climates around the world for its ornamental and useful hard-shelled fruits. The young fruits are edible and are usually cooked as a vegetable. The mature gourds are made into water bottles, dippers, spoons, pipes, and many other utensils and containers; they can also be fashioned into birdhouses, fancy ornaments, lamps, and musical instruments. Additionally, the vine’s showy white flowers and dense foliage make it a popular screen and ornamental plant.\n\n Bottle gourd vines are quick-growing annuals with hairy stems, long forked tendrils, and a musky odour. Many forms of the bottle gourd have been cultivated for specific purposes, and the sizes of the vines, leaves, and flowers, as well as the sizes and shapes of the fruits, vary greatly. The forms are named for the shape of the fruit—e.g., club, dipper, dolphin, kettle, and trough. The fruits of some cultivated varieties may be more than 1 metre (about 3 feet) long. The plants may be grown easily from seed but require a long hot growing season to mature.",
         "url" : "https://youtu.be/Q6jQ5ZvoDt0",
         "image" : "upo",
-        "category" : "4"
+        "category" : "4",
+        "steps": [
+            {
+                "step_name": "STEP 1",
+                "process": "Choose a variety of gourd. Gourds come in dozens of species, each with its own unique shape, color, and size. Gourds come in three general types: ornamental gourds (cucurbita), utilitarian gourds (lagenaria), and vegetable sponge gourds (luffa). Also consider including a few different kinds of edible gourds.\n-Ornamental gourds are brightly colored and oddly shaped, typically used as decoration. The have orange and yellow flowers.\n-Utilitarian gourds are green while growing, and then dry a brown shade. These gourds are most often used for tools and utensils because of their tough shell.\n-Vegetable sponge gourds have a shell that can be peeled off, revealing a center that can be used as a sponge. These have yellow flowers while growing.\n-While not all gourds are edible, many are. You can eat Butternut Squash, Cushaw, Festival Squash, Golden Acorn, and more. Some other edible gourds include: balsam apple, chinese okra, Hercules war club, and young luffa.",
+                "step_image": "upo_step1"
+            },
+            {
+                "step_name": "STEP 2",
+                "process": "Determine when to plant. Gourds will grow in most climate zones, but they grow the best in hot weather. If you’re in a location that receives freezing temperatures throughout most of the winter, you will have to start your gourds as seeds indoors prior to sowing them outside. Gourds take about 180 days total from planting till they produce ripe fruit, as a result of their extra long germination process. Keep in mind that if you’re in a cold area, you’ll need to start your seeds 6-8 weeks before the last frost of the season.\n-Gourds grow best in temperatures between 75 and 85 degrees Fahrenheit.\n-Starting gourds indoors simply involves planting the seeds in individual containers, setting up a few grow lights, and watering on a daily basis.",
+                "step_image": "upo_step2"
+            },
+            {
+                "step_name": "STEP 3",
+                "process": "Decide whether or not to use a trellis. Trellises are wood or wire constructs built to hold plants off the ground, and in the case of gourds, are used primarily to encourage unique shapes. You do not need a trellis to grow your gourds, as they will grow fine on the ground. However, gourds that grow on the ground will have a flat side where they lay, while gourds that grow on trellises will maintain their rounded shapes. If you decide to use a trellis, set it up prior to planting your gourds, and then stake the plants to it over time.\n-Large, heavy varieties (like bottle gourds) will require a combination wood and heavy wire trellis in order to support them without falling over.\n-Small gourd varieties can be grown using a large tomato cage as the trellis.\n-Luffa (vegetable sponge gourds) almost always need to be trellised.\n-Using trellises can help prevent your gourds from getting diseases.",
+                "step_image": "upo_step3"
+            },
+            {
+                "step_name": "STEP 4",
+                "process": "Select a planting location. Gourds should be planted outdoors in full sunlight, with plenty of space to sprawl. Although they can be grown in pots, this will significantly limit their size and overall production. If you’re planting your gourds without a trellis, choose a space with plenty of square footage for growth. Otherwise, stake your trellis out in a wide area with plenty of sunlight and little shade.\n-Plant your seeds a least 8-10 feet apart in order to properly prevent diseases from forming and spreading.",
+                "step_image": "upo_step4"
+            },
+            {
+                "step_name": "STEP 5",
+                "process": "Prepare the soil. It isn’t too tricky to get soil under the proper conditions for gourds, which makes them easy to grow in most locations. The soil needs to be well-drained and warm. They like plenty of moisture with a bit more clay than sand (meaning they may not thrive in sandy soil). Test the pH of your garden plot to see if it is somewhere between 5.8 and 6.4, which is the best range for gourds.\n-If your pH is too high, incorporate peat moss to increase the acidity.\n-If the air is warm but the ground is still cold, the gourd plants won't grow well.",
+                "step_image": "upo_step5"
+            },
+            {
+                "step_name": "STEP 6",
+                "process": "Scarify the seeds. Gourds are infamous for their tough outer seed shell, which is partly responsible for their extra long germination period. To prevent your seeds/gourds from rotting because they took too long to germinate, you can scarify them to speed the process. Use an emery board (paper nail file) or a smooth sandpaper to scratch up the outer surface of the seeds. This shouldn’t take too long; the rough paper should just roughen the coating of both sides of the seed.",
+                "step_image": "upo_step6"
+            },
+            {
+                "step_name": "STEP 7",
+                "process": "Soak the seeds. After the seeds have been scarified, place them in a bowl of lukewarm water and allow them to soak. This should be done for a total of 24 hours, in order to help speed up the germination process.",
+                "step_image": "upo_step7"
+            },
+            {
+                "step_name": "STEP 8",
+                "process": "Let the seeds dry. After soaking for 24 hours, remove the seeds from the water and lay them out to dry on a piece of wax paper. Giving them time to completely dry out will prevent them from rotting before even sprouting.",
+                "step_image": "upo_step8"
+            },
+            {
+                "step_name": "STEP 9",
+                "process": "Start your seeds. It’s a good idea to give your seeds a head start (even if you’re in a warmer area) by planting them in starter sets indoors. Fill small seed trays with your prepared soil, and place a single seed in each slot. Give daily watering until you’re ready to transplant the sprouts outdoors, typically after the last frost of the winter.\n-Make sure the seeds get plenty of light to keep them from getting too leggy (excessively long and straggly stemmed) later on.",
+                "step_image": "upo_step9"
+            },
+            {
+                "step_name": "STEP 10",
+                "process": "Dig rows and create hills. In the location you’ve selected for your garden plot, use a small trowel or shovel to prepare your rows and hills, or small mounds of earth, for the gourd seedlings. If you’re planting many gourds at once, make sure to follow the seed packet spacing directions strictly. Gourds typically need to be planted several feet away from each other in order to thrive.\n-Keep your rows near your trellis if you’re using one.",
+                "step_image": "upo_step10"
+            },
+            {
+                "step_name": "STEP 11",
+                "process": "Plant the gourds. Place each small seedling or seed into its own individual hill; don’t group several in the same space. Cover up the seeds with ½ inch of dirt, and cover seedlings to the base of the new growth.",
+                "step_image": "upo_step11"
+            },
+            {
+                "step_name": "STEP 12",
+                "process": "Care for your newly planted gourds. At planting, water the gourd seeds heavily so as to reduce the risk of transplant shock. Gourds like plenty of moisture, so make sure the soil is damp by adding water on a daily basis if necessary. Remove weeds as they sprout, as these will steal valuable nutrients and growing space from the gourds. If you’re using a trellis, as the gourds grow in size you can use a bit of string to secure them to the posts and give them plenty of room for growth.\n-Add a layer of mulch to the garden plot to lock in moisture and block out new weeds.\n-Consider incorporating an equal-part fertilizer (like a 10-10-10 mixture) to the soil every few months.\n-Give your gourds extra water when the weather is particularly dry or hot, to maintain a high level of moisture in the soil",
+                "step_image": "upo_step12"
+            },
+            {
+                "step_name": "STEP 13",
+                "process": "Consider training ornamental gourds. If you’re growing ornamental gourds, it is common for growers to train them into interesting shapes and structures. There are two general ways to train the shape of a gourd: bending over time, and by giving it a mold. You can slowly bend parts of a gourd as it grows, if you want a winding snake-like gourd in the end. You can also create a mold for your gourd by placing the small fruit inside a breakable vessel of some sort (like a vase). When the gourd has grown, it will fill the container and match its shape; you simply have to break the mold to remove it when done.",
+                "step_image": "upo_step13"
+            },
+            {
+                "step_name": "STEP 14",
+                "process": "Leave the gourds to cure on the vine. When your gourds have reached their full size, the vine they’re growing on will start to die off on its own. At this point your gourds are ready for harvesting, but you’ll make the job a lot easier on yourself if you leave them to cure on the vine. Give them several weeks to a month for the curing process to occur; as you check in on them, you’ll notice them getting lighter and lighter. Unless you notice animals and bugs eating the gourds, there’s no fear of rotting or going bad.\n-If you’re harvesting edible gourds, they’ll need to be removed from the vine when they’re still young.\n-If you have to cut the gourds early, wait till the vine at the top of the gourd has turned completely brown and dry.\n-Turn the gourds occasionally and move them around to keep them from touching.",
+                "step_image": "upo_step14"
+            },
+            {
+                "step_name": "STEP 15",
+                "process": "Remove the gourds. The curing time varies from gourd to gourd depending on its size (and therefore water content). Check the gourds on a weekly basis to tell if they’re ready. Feel the skin and check the firmness of the gourds; if they are at all soft or squishy, they are rotten and should be thrown out. When the skin feels hard and slightly waxy to the touch, they are likely ready to be cut. Shake the gourd as the final test to see if they are fully cured; if they are ready, they’ll sound like a rattle with the seeds banging around on the inside. Use a pair of scissors or shears to cut the gourds from the vine.",
+                "step_image": "upo_step15"
+            },
+            {
+                "step_name": "STEP 16",
+                "process": "Treat the shell of the gourd. Although it is not required, you can treat the shell of the gourd to change its appearance and to help it last longer. Wash the gourd with a bit of dish detergent and warm water to kill off any bacteria. You can then use a bit of sandpaper or steel wool to shine the outside of the gourd, and add a layer of wax or shellac to finish off the shine. You can decorate gourds by painting the outsides as well.",
+                "step_image": "upo_step16"
+            },
+            {
+                "step_name": "STEP 17",
+                "process": "Consider saving the seeds. Your gourd will last for many years with the seeds inside, but if you would like to save the seeds for the next year’s planting, you may do so. Cut the gourd open to remove the seeds from the inside. Follow the same process of propagating the seeds (as aforementioned) to help speed up their growth. You can keep the shell of the old gourd, and you’ll have the seeds to create plenty of new gourds as well.",
+                "step_image": "upo_step17"
+            }
+        ]
     },
     {
         "id" : "10",
@@ -77,6 +770,93 @@
         "description" : "This herbaceous, tendril-bearing vine grows up to 5 m (16 ft) in length. It bears simple, alternate leaves 4–12 cm (1.6–4.7 in) across, with three to seven deeply separated lobes. Each plant bears separate yellow male and female flowers. In the Northern Hemisphere, flowering occurs during June to July and fruiting during September to November.\n The fruit has a distinct warty exterior and an oblong shape. It is hollow in cross-section, with a relatively thin layer of flesh surrounding a central seed cavity filled with large, flat seeds and pith. The fruit is most often eaten green, or as it is beginning to turn yellow. At this stage, the fruit's flesh is crunchy and watery in texture, similar to cucumber, chayote or green bell pepper, but bitter. The skin is tender and edible. Seeds and pith appear white in unripe fruits; they are not intensely bitter and can be removed before cooking. \n\nSome sources claim the flesh (rind) becomes somewhat tougher and more bitter with age, but other sources claim that at least for the common Chinese variety the skin does not change and bitterness decreases with age. The Chinese variety are best harvested light green possibly with a slight yellow tinge or just before. The pith becomes sweet and intensely red; it can be eaten uncooked in this state, and is a popular ingredient in some Southeast Asian salads. \nWhen the fruit is fully ripe, it turns orange and soft, and splits into segments which curl back to expose seeds covered in bright red pulp. \n\nVarieties\nBitter melon comes in a variety of shapes and sizes. The cultivar common in China is 20–30 cm (7.9–11.8 in) long, oblong with bluntly tapering ends and pale green in colour, with a gently undulating, warty surface. The bitter melon more typical of India has a narrower shape with pointed ends, and a surface covered with jagged, triangular \"teeth\" and ridges. It is green to white in colour. Between these two extremes are any number of intermediate forms. Some bear miniature fruit of only 6–10 cm (2.4–3.9 in) in length, which may be served individually as stuffed vegetables. These miniature fruit are popular in Bangladesh, India, Pakistan, Nepal and other countries in South Asia. The sub-continent variety is most popular in Bangladesh and India.",
         "url" : "https://youtu.be/5vvQyruajQk",
         "image" : "ampalaya",
-        "category" : "4"
+        "category" : "4",
+        "steps": [
+            {
+                "step_name": "STEP 1",
+                "process": "Plant after the last frost when temperatures are 75–80 °F (24–27 °C). Even though bitter melon is more resistant to the cold than other plants in its family, frost will kill it. Though it may vary depending on your location, you are usually safe planting your seeds in late April or early May.\n-Bitter melon can grow at a minimum temperature of 65 °F (18 °C), but it will grow slower than it would in warmer temperatures.\n-You can also grow bitter melon in a greenhouse to prevent frost damage.",
+                "step_image": "ampalaya_step1"
+            },
+            {
+                "step_name": "STEP 2",
+                "process": "Find an area with 6 hours of direct sunlight. Although a few hours of shade is okay throughout the day, bitter melon prefers a location that has full sun. Seeds can be planted in shade as long as the vines can reach the sun once they grow.",
+                "step_image": "ampalaya_step2"
+            },
+            {
+                "step_name": "STEP 3",
+                "process": "Add compost or manure to well-drained soil. Mix in organic materials to add nutrients to the soil before you plant your seeds. Bitter melon prefers soft, sandy soil, so mix in sand if you need to.\n-The soil pH should be between 5.5 and 6.7 to grow healthy melons.",
+                "step_image": "ampalaya_step3"
+            },
+            {
+                "step_name": "STEP 4",
+                "process": "Build a trellis for the vines to climb. Make sure the trellis is at least 6 feet (1.8 m) tall so the vines have room to grow and wrap around it. Shape the trellis like the letter \"A\" over the growing area. Growing on a trellis will help prevent diseases, make harvesting easier, and produce larger fruit.\n-Bitter melon that is grown directly on the ground will not produce fruit as large as a trellised plant.\n-If you do not trellis your melons, add a layer of straw or mulch to create a barrier between the plant and the soil, keep the moisture in the soil, and prevent fruit rot.",
+                "step_image": "ampalaya_step4"
+            },
+            {
+                "step_name": "STEP 5",
+                "process": "Soak the seeds for 24 hours before planting. Put the seeds in a bowl of water and let them soak for a day. This helps the seeds germinate quickly once they are planted. After they have soaked, pat them dry with a paper towel.\nPurchase bitter melon seeds from your local nursery or online.",
+                "step_image": "ampalaya_step5"
+            },
+            {
+                "step_name": "STEP 6",
+                "process": "Plant 2 to 3 seeds in the same hole 1⁄2 in (13 mm) deep in the soil. Plant the bitter melon directly outside. Poke a hole in the soil with your finger and drop the seeds inside. Cover the hole with topsoil. If you plan to plant more than 1 bitter melon plant, space the holes 40 to 60 inches (100 to 150 cm) apart directly into the soil in your garden.\n-Seeds can also be planted in small pots filled with potting mix if temperatures outside are not ideal. Seedlings can be transplanted after 15-20 days once they’re planted in pots.",
+                "step_image": "ampalaya_step6"
+            },
+            {
+                "step_name": "STEP 7",
+                "process": "Water the soil until the top 1⁄2 in (13 mm) is damp. Use a watering can to gently wet the soil. Put your finger into the soil down to the first knuckle. The soil should feel moist, but not completely waterlogged.",
+                "step_image": "ampalaya_step7"
+            },
+            {
+                "step_name": "STEP 8",
+                "process": "Continue to water the soil every morning. Water at the same time every day so you do not forget. You should start to see the seedlings germinating after 2-3 days. Make sure the soil is moist, but not completely wet.",
+                "step_image": "ampalaya_step8"
+            },
+            {
+                "step_name": "STEP 9",
+                "process": "Thin the seedlings once they have 4 to 6 true leaves. Save the healthiest-looking seedling. Use a pair of small pruning shears to clear away the weaker growths by cutting them at the base.\n-If the seedlings are all the same size, either thin them out randomly or wait another day or 2 to see which ones start to grow larger.",
+                "step_image": "ampalaya_step9"
+            },
+            {
+                "step_name": "STEP 10",
+                "process": "Spray your bitter melon with fungicides to prevent disease. Bitter melon is susceptible to the same diseases that affect cucumbers and squash. Use a fungicide made for squash from your local garden store to prevent infections in your bitter melon.\n-Common diseases your bitter melon may encounter are watermelon mosaic potyvirus, downy mildew, or leaf spot. Look for splotchy discoloration on the leaves of your plant.\n-Fungal infections typically occur after long wet periods. Watch your plant carefully if there has been a lot of rain in your area.",
+                "step_image": "ampalaya_step10"
+            },
+            {
+                "step_name": "STEP 11",
+                "process": "Apply an insecticide to prevent insect infestation. Cucumber beetles are a common pest and carry bacteria that can permanently damage the vines of your plant. Apply a pesticide with rotenone at dusk so you do not harm pollinators during the day. Follow the directions on the packaging so you don’t harm your plants.\n-Fruit flies could lay eggs in the fruit. If you notice fruit flies near your plant, protect individual fruit by wrapping them in newspapers or paper bags.\n-Only use harsh chemicals if the infestation causes significant damage to your plant.\n-If you are planning to eat your bitter melon, stick to pesticides that are safe for human consumption, such as liquid soap sprays, vinegar, or Bacillus Thuringiensis (Bt).",
+                "step_image": "ampalaya_step11"
+            },
+            {
+                "step_name": "STEP 12",
+                "process": "Water the soil daily. Water the soil so that it's moist 1⁄2 inch (13 mm) below the surface. Overwatering the soil could damage the root system of your plant and cause the fruit to rot.\nUse an irrigation system to provide a consistent water source for your melons.",
+                "step_image": "ampalaya_step12"
+            },
+            {
+                "step_name": "STEP 13",
+                "process": "Prune the tip of the main stem once it grows past the top of the trellis. Use a pair of pruning shears to cut the growing stem back by 2 inches (5.1 cm). This helps promote faster growth of fruit and puts the plant’s energy into the lateral vines that have grown from the main stem.\n-If you are not growing on a trellis, prune the growing vine once the first female flowers appear on the plant. Female flowers will have knobby green stems attached to yellow petals.",
+                "step_image": "ampalaya_step13"
+            },
+            {
+                "step_name": "STEP 14",
+                "process": "Fertilize with a balanced NPK formula throughout the growing season. Only apply fertilizer after the plant has 4 to 6 true leaves. A store-bought fertilizer meant for fruit and vegetables works well for bitter melon. Follow the directions on the label so you do not oversaturate the soil.\n-Water the soil immediately after you apply fertilizer so it has a chance to soak into the roots of your plant.\n",
+                "step_image": "ampalaya_step14"
+            },
+            {
+                "step_name": "STEP 15",
+                "process": "Pick fruits 12 to 16 weeks after planting when they’re still green. Use a pair of scissors to cut the hanging fruit from the vine. The fruit should be around 4 to 6 inches (10 to 15 cm) long and firm to the touch when they are harvested. They’ll appear light green, but they may have yellow streaks on the flesh.\nPlants that are completely yellow and soft to the touch are overripe.\nThe fruit’s bitterness may vary, even when it’s grown on the same vine.",
+                "step_image": "ampalaya_step15"
+            },
+            {
+                "step_name": "STEP 16",
+                "process": "Harvest every 2 days after the fruit starts to ripen. More fruit will form from the same vine after you remove the fruit that’s already grown. Check your vines every other day to see if you have fruit ready to be cut down.\nFruit should be harvested before it fully ripens.",
+                "step_image": "ampalaya_step16"
+            },
+            {
+                "step_name": "STEP 17",
+                "process": "Cook or eat the fruit raw within 3 to 5 days after you harvest. Keep the fruit in a plastic or paper bag in the fridge. Cut the fruit open and remove the seeds. Pair the fruit with garlic or spicy peppers to mask the bitter flavors of the melon.\n-You can parboil the fruit to reduce the bitterness, but it may change the texture.\n-Bitter melon has healthy doses of potassium, iron, fiber, and high amounts of vitamins C, B1, B2, and B3.",
+                "step_image": "ampalaya_step17"
+            }
+        ]
     }
 ]

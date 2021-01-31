@@ -6,35 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".OfflineTutorialActivity">
 
-    <ImageView
-        android:id="@+id/vegetableImage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slider_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/slider_dots_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider_view_pager"
         android:layout_centerHorizontal="true"
-        android:layout_margin="50dp"
-        android:src="@drawable/eggplant"
-        />
+        android:layout_marginHorizontal="70dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
-    <TextView
-        android:id="@+id/vegetableName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eggplant"
-        android:layout_below="@+id/vegetableImage"
-        android:textSize="30dp"
-        android:textAlignment="center"
-        android:textFontWeight="200"/>
-
-    <TextView
-        android:id="@+id/vegetableDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eggplant"
-        android:paddingVertical="20dp"
-        android:layout_below="@+id/vegetableName"
-        android:textSize="18dp"
-        android:paddingHorizontal="25dp"
-        android:textFontWeight="100"
-        />
+    </LinearLayout>
 
 </RelativeLayout>

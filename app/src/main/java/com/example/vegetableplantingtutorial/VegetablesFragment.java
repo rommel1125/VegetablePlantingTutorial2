@@ -88,8 +88,9 @@ public class VegetablesFragment extends Fragment {
 //
 //            name.setText(vegeName[i]);
 //            image.setImageResource(vegeImages[i]);
-
-            Vegetables vegetable = setVegetables(String.valueOf(i+1));
+            VegetableController con = new VegetableController(getActivity());
+            Vegetables vegetable = con.getVegetableById(String.valueOf(i+1));
+//            Vegetables vegetable = setVegetables(String.valueOf(i+1));
 
             name.setText(vegetable.getName());
 
@@ -100,41 +101,5 @@ public class VegetablesFragment extends Fragment {
             return view1;
         }
 
-        public Vegetables setVegetables(String id) {
-
-            String json;
-            Vegetables vege = null;
-            try {
-
-                InputStream is = getActivity().getAssets().open("vegetables.json");
-                int size = is.available();
-                byte[] buffer = new byte[size];
-                is.read(buffer);
-                is.close();
-
-                json = new String(buffer, "UTF-8");
-                JSONArray jsonArray = new JSONArray(json);
-
-                for(int j = 0; j < jsonArray.length(); j++) {
-
-                    JSONObject jsonObject = jsonArray.getJSONObject(j);
-                    Log.d(jsonObject.getString("id"), jsonObject.getString("name"));
-                    if(jsonObject.getString("id").equals(id)) {
-                        String v_id = jsonObject.getString("id");
-                        String name = jsonObject.getString("name");
-                        String description = jsonObject.getString("description");
-                        String url = jsonObject.getString("url");
-                        String image = jsonObject.getString("image");
-
-                        vege = new Vegetables(v_id, name, description, url, image);
-                    }
-                }
-                return vege;
-            }
-            catch(Exception e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
     }
 }

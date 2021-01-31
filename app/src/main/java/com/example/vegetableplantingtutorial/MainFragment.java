@@ -84,7 +84,8 @@ public class MainFragment extends Fragment {
         String category_id = getArguments().getString("id");
 
 //        DatabaseHelper db = new DatabaseHelper(getActivity());
-        ArrayList<Vegetables> vegetables = getVegetables(category_id);
+        VegetableController con = new VegetableController(getActivity());
+        ArrayList<Vegetables> vegetables = con.getVegetablesByCategory(category_id);
 
         CategoryGridAdapter adapter = new CategoryGridAdapter(getActivity(), vegetables);
         gridView.setAdapter(adapter);
@@ -108,42 +109,4 @@ public class MainFragment extends Fragment {
         return view;
     }
 
-    private ArrayList<Vegetables> getVegetables(String category_id) {
-        ArrayList<Vegetables> vegetables = new ArrayList<>();
-
-        String json;
-
-        try {
-
-            InputStream is = getActivity().getAssets().open("vegetables.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-
-            json = new String(buffer, "UTF-8");
-            JSONArray veges = new JSONArray(json);
-
-            for(int i = 0; i < veges.length(); i++) {
-                JSONObject vegetable = veges.getJSONObject(i);
-                if(vegetable.getString("category").equals(category_id)) {
-                    String v_id = vegetable.getString("id");
-                    String name = vegetable.getString("name");
-                    String desc = vegetable.getString("description");
-                    String url = vegetable.getString("url");
-                    String imageName = vegetable.getString("image");
-                    String category = vegetable.getString("category");
-
-                    vegetables.add(new Vegetables(v_id, name, desc, url, imageName, category));
-                }
-            }
-            return vegetables;
-
-        }
-        catch(Exception e) {
-            e.printStackTrace();
-        }
-
-        return null;
-    }
 }
