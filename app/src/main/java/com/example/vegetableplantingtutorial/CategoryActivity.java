@@ -32,8 +32,11 @@ public class CategoryActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.view_pager);
 
         // Initialize Arraylist
-        DatabaseHelper db = new DatabaseHelper(this);
-        ArrayList<CategoryModel> categories = db.fetchCategories();
+        ArrayList<CategoryModel> categories = new ArrayList<>();
+        categories.add(new CategoryModel("1", "JAN-MAR"));
+        categories.add(new CategoryModel("2", "APR-JUN"));
+        categories.add(new CategoryModel("3", "JUL-SEP"));
+        categories.add(new CategoryModel("4", "OCT-NOV"));
 
         // prepare view pager
         prepareViewPager(viewPager, categories);
