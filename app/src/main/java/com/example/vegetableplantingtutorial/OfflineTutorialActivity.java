@@ -26,6 +26,7 @@ public class OfflineTutorialActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offline_tutorial);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         vegetableId = intent.getStringExtra(ListdataActivity.EXTRA_VEGETABLE_ID);
