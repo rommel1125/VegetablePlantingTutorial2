@@ -13,13 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VegetablePlantingTutorial">
 
-        <activity android:name=".CategoryActivity" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".OfflineTutorialActivity" android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CategoryActivity"
+            android:label="Vegetable Planting"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".OfflineTutorialActivity"
+            android:label="Vegetable Planting"
+            android:parentActivityName=".OfflineTutorialActivity" />
         <activity
             android:name=".TutorialActivity"
+            android:label="Vegetable Planting"
             android:parentActivityName=".TutorialActivity" />
         <activity
             android:name=".ListdataActivity"
+            android:label="Vegetable Planting"
             android:parentActivityName=".ListdataActivity" />
         <activity
             android:name=".MainActivity"
