@@ -19,6 +19,8 @@
         android:layout_below="@+id/step_image_view"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:text="STEP 1"
         android:textFontWeight="400"
         android:textSize="28dp"
