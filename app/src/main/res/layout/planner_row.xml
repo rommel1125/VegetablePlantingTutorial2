@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_vege_plant_round"
+        android:id="@+id/planner_row_image_view"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/planner_row_vegetable_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vegetable Name"
+            android:textSize="24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:letterSpacing=".03"/>
+
+        <TextView
+            android:id="@+id/planner_row_days_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50 days left"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#a9a9a9"
+            android:letterSpacing=".05"/>
+
+    </LinearLayout>
+
+</LinearLayout>

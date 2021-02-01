@@ -8,6 +8,7 @@ public class Vegetables {
     private String url;
     private String imageName;
     private String category;
+    private String days;
 
     public Vegetables(String id, String name, String description, String url, String imageName) {
         this.id = id;
@@ -17,13 +18,14 @@ public class Vegetables {
         this.imageName = imageName;
     }
 
-    public Vegetables(String id, String name, String description, String url, String imageName, String category) {
+    public Vegetables(String id, String name, String description, String url, String imageName, String category, String days) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.url = url;
         this.imageName = imageName;
         this.category = category;
+        this.days = days;
     }
 
     public String getId() {
@@ -72,5 +74,13 @@ public class Vegetables {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getDays() {
+        return days;
+    }
+
+    public void setDays(String days) {
+        this.days = days;
     }
 }

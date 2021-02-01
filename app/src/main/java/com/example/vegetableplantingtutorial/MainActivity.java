@@ -93,8 +93,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_plan:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new PlanFragment()).commit();
+                openPlannerActivity();
                 break;
 
             case R.id.nav_settings:
@@ -128,5 +127,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+    public void openPlannerActivity() {
+        Intent intent = new Intent(this, PlannerActivity.class);
+        startActivity(intent);
+    }
 
 }

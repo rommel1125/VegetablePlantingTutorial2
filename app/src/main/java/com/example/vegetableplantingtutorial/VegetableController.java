@@ -50,8 +50,9 @@ public class VegetableController {
                     String url = vegetableObject.getString("url");
                     String imageName = vegetableObject.getString("image");
                     String category = vegetableObject.getString("category");
+                    String days = vegetableObject.getString("days");
 
-                    vegetable = new Vegetables(id, name, description, url, imageName, category);
+                    vegetable = new Vegetables(id, name, description, url, imageName, category, days);
                 }
             }
             return vegetable;
@@ -97,8 +98,9 @@ public class VegetableController {
                     String url = vegetableObject.getString("url");
                     String imageName = vegetableObject.getString("image");
                     String category = vegetableObject.getString("category");
+                    String days = vegetableObject.getString("days");
 
-                    vegetables.add(new Vegetables(id, name, description, url, imageName, category));
+                    vegetables.add(new Vegetables(id, name, description, url, imageName, category, days));
                 }
             }
             return vegetables;

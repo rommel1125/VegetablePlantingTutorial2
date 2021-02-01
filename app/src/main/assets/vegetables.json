@@ -6,6 +6,7 @@
         "url" : "https://youtu.be/dHDKdczU2_U",
         "image" : "eggplant",
         "category" : "2",
+        "days" : "125",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -96,6 +97,7 @@
         "url" : "https://youtu.be/eySTo2GgvoY",
         "image" : "tomato",
         "category" : "3",
+        "days": "55",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -151,6 +153,7 @@
         "url" : "https://youtu.be/TS_yDySB92s",
         "image" : "repolyo",
         "category" : "1",
+        "days": "150",
         "steps":  [
             {
                 "step_name" : "STEP 1",
@@ -241,6 +244,7 @@
         "url" : "https://youtu.be/j6AUtQuMBME",
         "image" : "sitaw",
         "category" : "3",
+        "days": "60",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -361,6 +365,7 @@
         "url" : "https://youtu.be/dERQ_XwQtrY",
         "image" : "kalabasa",
         "category" : "2",
+        "days": "100",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -436,6 +441,7 @@
         "url" : "https://youtu.be/liFdBSrM62Q",
         "image" : "malunggay",
         "category" : "2",
+        "days": "365",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -506,6 +512,7 @@
         "url" : "https://youtu.be/q9dFCCDUCCI",
         "image" : "kangkong",
         "category" : "2",
+        "days": "60",
         "steps" : [
             {
                 "step_name" : "STEP 1",
@@ -591,6 +598,7 @@
         "url" : "https://youtu.be/VMH0ut0Ory4",
         "image" : "lettuce",
         "category" : "1",
+        "days": "50",
         "steps": [
             {
                 "step_name": "STEP 1",
@@ -676,6 +684,7 @@
         "url" : "https://youtu.be/Q6jQ5ZvoDt0",
         "image" : "upo",
         "category" : "4",
+        "days": "70",
         "steps": [
             {
                 "step_name": "STEP 1",
@@ -771,6 +780,7 @@
         "url" : "https://youtu.be/5vvQyruajQk",
         "image" : "ampalaya",
         "category" : "4",
+        "days": "100",
         "steps": [
             {
                 "step_name": "STEP 1",
