@@ -3,4 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_orange_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plant Name"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:letterSpacing=".09"
+        android:id="@+id/plantName"
+        />
+
 </RelativeLayout>
