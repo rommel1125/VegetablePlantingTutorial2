@@ -41,6 +41,8 @@ public class PlannerActivity extends AppCompatActivity {
     String plantName[];
     String harvestDate[];
     String imageName[];
+    String sDate[];
+    String hDate[];
 
     private static final String PREFS_NAME = "shared_prefs";
     private static final String PREFS_DATA = "shared_data";
@@ -59,43 +61,65 @@ public class PlannerActivity extends AppCompatActivity {
 
         plannerListView = findViewById(R.id.planner_list_view);
 
-        CustomAdapter adapter = new CustomAdapter(this, plantName, harvestDate, imageName);
-        plannerListView.setAdapter(adapter);
-
-
-//        PlannerAdapter adapter = new PlannerAdapter(this, gardens);
-//        plannerListView.setAdapter(adapter);
+        if(gardens != null) {
+            CustomAdapter adapter = new CustomAdapter(this, plantName, harvestDate, imageName, sDate, hDate);
+            plannerListView.setAdapter(adapter);
+        }
+        else {
+            Intent in = new Intent(this, EmptyActivity.class);
+            startActivity(in);
+        }
 
     }
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void loadData() {
 
-        SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = sharedPreferences.getString(PREFS_DATA, null);
-        Type type = new TypeToken<ArrayList<Garden>>() {}.getType();
+        try {
 
-        gardens = gson.fromJson(json, type);
+            SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+            Gson gson = new Gson();
+            String json = sharedPreferences.getString(PREFS_DATA, null);
+            Type type = new TypeToken<ArrayList<Garden>>() {}.getType();
 
-        int size = gardens.size();
-        plantName = new String[size];
-        harvestDate = new String[size];
-        imageName = new String[size];
+            gardens = gson.fromJson(json, type);
 
-        for(int i = 0; i < gardens.size(); i++) {
-            VegetableController con = new VegetableController(this);
-            Vegetables vege = con.getVegetableById(gardens.get(i).getVegetableId());
-            plantName[i] = vege.getName();
-            harvestDate[i] = getHarvestDayLeft(gardens.get(i).getHarvestDate());
-            imageName[i] = vege.getImageName();
+            if(gardens == null) {
+                Toast.makeText(this, "No plans available", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            int size = gardens.size();
+            plantName = new String[size];
+            harvestDate = new String[size];
+            imageName = new String[size];
+            sDate = new String[size];
+            hDate = new String[size];
+
+            for(int i = 0; i < gardens.size(); i++) {
+                VegetableController con = new VegetableController(this);
+                Vegetables vege = con.getVegetableById(gardens.get(i).getVegetableId());
+                plantName[i] = vege.getName();
+                harvestDate[i] = getHarvestDayLeft(gardens.get(i).getHarvestDate());
+                imageName[i] = vege.getImageName();
+                sDate[i] = gardens.get(i).getPlantedDate();
+                hDate[i] = gardens.get(i).getHarvestDate();
+
+
+                Log.d("Planted Date", gardens.get(i).getPlantedDate());
+                Log.d("Harves Date", gardens.get(i).getHarvestDate());
+            }
+
+            if(gardens == null) {
+                Toast.makeText(this, "No Data in sharedPreferences", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(this, gardens.get(0).getHarvestDate(), Toast.LENGTH_SHORT).show();
+            }
+
         }
-
-        if(gardens == null) {
-            Toast.makeText(this, "No Data in sharedPreferences", Toast.LENGTH_SHORT).show();
-        }
-        else {
-            Toast.makeText(this, gardens.get(0).getHarvestDate(), Toast.LENGTH_SHORT).show();
+        catch(Exception e) {
+            e.printStackTrace();
         }
 
     }
@@ -140,13 +164,17 @@ public class PlannerActivity extends AppCompatActivity {
         String plantName[];
         String date[];
         String imageName[];
+        String plantedDate[];
+        String harvesDate[];
 
-        public CustomAdapter(Context context, String plantName[], String date[], String imageName[]) {
+        public CustomAdapter(Context context, String plantName[], String date[], String imageName[], String plantedDate[], String harvesDate[]) {
             super(context, R.layout.planner_row, R.id.planner_row_vegetable_name, plantName);
             this.context = context;
             this.plantName = plantName;
             this.date = date;
             this.imageName = imageName;
+            this.plantedDate = plantedDate;
+            this.harvesDate = harvesDate;
         }
 
         @NonNull
@@ -159,9 +187,11 @@ public class PlannerActivity extends AppCompatActivity {
             ImageView image = row.findViewById(R.id.planner_row_image_view);
             TextView name = row.findViewById(R.id.planner_row_vegetable_name);
             TextView hDate = row.findViewById(R.id.planner_row_days_left);
+            TextView dates = row.findViewById(R.id.planner_dates);
 
             name.setText(plantName[position]);
             hDate.setText(date[position]);
+            dates.setText(plantedDate[position] + " - " + harvesDate[position]);
 
             Resources resource = this.context.getResources();
             final int rId = resource.getIdentifier(imageName[position], "drawable", context.getPackageName());

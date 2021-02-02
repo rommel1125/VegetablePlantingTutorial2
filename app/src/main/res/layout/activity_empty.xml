@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmptyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No plans added yet"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:id="@+id/empty_text_view"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plant list"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/empty_text_view"
+        android:layout_marginTop="30dp"
+        android:id="@+id/empty_button"/>
+
+</RelativeLayout>

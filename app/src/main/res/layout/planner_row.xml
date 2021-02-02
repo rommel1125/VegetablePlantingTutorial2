@@ -13,7 +13,7 @@
         android:id="@+id/planner_row_image_view"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:text="Vegetable Name"
             android:textSize="24dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -34,9 +34,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="50 days left"
-            android:textSize="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#333"
+            android:letterSpacing=".05"/>
+
+        <TextView
+            android:id="@+id/planner_dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02/05/2021 - 07/24/2021"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
             android:textColor="#a9a9a9"
             android:letterSpacing=".05"/>
 
