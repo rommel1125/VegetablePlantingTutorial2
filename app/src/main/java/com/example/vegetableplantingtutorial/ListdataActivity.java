@@ -127,11 +127,12 @@ public class ListdataActivity extends AppCompatActivity {
 
             // Get harvest date
             Calendar calendar = Calendar.getInstance();
+            String plantedDate = sdf.format(calendar.getTime());
             calendar.add(Calendar.DATE, daysForHarvest);
             String harvestDate = sdf.format(calendar.getTime());
 
             // Add to ArrayList
-            gardens.add(new Garden(vegetableId, harvestDate, imageName));
+            gardens.add(new Garden(vegetableId, harvestDate, imageName, plantedDate));
 
             SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
