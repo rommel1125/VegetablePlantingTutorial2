@@ -73,10 +73,7 @@ public class PlannerActivity extends AppCompatActivity {
             startActivity(in);
         }
 
-    }
 
-    //PRESS AND HOLD planner item to delete
-    public void deleteData(){
         plannerListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
@@ -87,7 +84,9 @@ public class PlannerActivity extends AppCompatActivity {
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-
+                                removeData(position);
+                                loadData();
+                                refreshActivity();
                             }
                         })
                         .setNegativeButton("No",null)
@@ -95,7 +94,36 @@ public class PlannerActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
     }
+
+    private void removeData(int position) {
+
+        try {
+
+            gardens.remove(position);
+
+            SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            Gson gson = new Gson();
+            String json = gson.toJson(gardens);
+            editor.putString(PREFS_DATA, json);
+            editor.apply();
+
+        }
+        catch(Exception e) {
+            Toast.makeText(PlannerActivity.this, e.getMessage(), Toast.LENGTH_LONG);
+        }
+
+    }
+
+    private void refreshActivity() {
+        Intent intent = new Intent(PlannerActivity.this, PlannerActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void loadData() {
@@ -129,17 +157,16 @@ public class PlannerActivity extends AppCompatActivity {
                 imageName[i] = vege.getImageName();
                 sDate[i] = gardens.get(i).getPlantedDate();
                 hDate[i] = gardens.get(i).getHarvestDate();
-
-
-                Log.d("Planted Date", gardens.get(i).getPlantedDate());
-                Log.d("Harvest Date", gardens.get(i).getHarvestDate());
             }
 
             if(gardens == null) {
                 Toast.makeText(this, "No Data in sharedPreferences", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(PlannerActivity.this, EmptyActivity.class));
             }
             else {
-
+                if(gardens.size() <= 0) {
+                    startActivity(new Intent(PlannerActivity.this, EmptyActivity.class));
+                }
             }
 
         }
@@ -176,8 +203,6 @@ public class PlannerActivity extends AppCompatActivity {
         catch(Exception e) {
             e.printStackTrace();
         }
-
-
 
         return null;
     }
