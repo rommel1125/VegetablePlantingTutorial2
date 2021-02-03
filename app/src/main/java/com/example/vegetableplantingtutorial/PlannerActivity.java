@@ -107,7 +107,7 @@ public class PlannerActivity extends AppCompatActivity {
 
 
                 Log.d("Planted Date", gardens.get(i).getPlantedDate());
-                Log.d("Harves Date", gardens.get(i).getHarvestDate());
+                Log.d("Harvest Date", gardens.get(i).getHarvestDate());
             }
 
             if(gardens == null) {

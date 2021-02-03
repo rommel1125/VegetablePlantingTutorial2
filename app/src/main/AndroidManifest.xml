@@ -12,21 +12,30 @@
         android:roundIcon="@mipmap/ic_vege_plant_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VegetablePlantingTutorial">
-        <activity android:name=".EmptyActivity" android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".PlannerActivity" android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".EmptyActivity"
+            android:label="My Plants"
+            android:parentActivityName=".EmptyActivity">
+        </activity>
+        <activity
+            android:name=".PlannerActivity"
+            android:label="My Plants"
+            android:parentActivityName=".PlannerActivity"/>
         <activity
             android:name=".CategoryActivity"
-            android:parentActivityName=".MainActivity" />
+            android:label="Category"
+            android:parentActivityName=".CategoryActivity" />
         <activity
             android:name=".OfflineTutorialActivity"
-            android:parentActivityName=".MainActivity" />
+            android:label="Offline Tutorial"
+            android:parentActivityName=".OfflineTutorialActivity" />
         <activity
             android:name=".TutorialActivity"
-            android:label="Vegetable Planting"
+            android:label="Video Tutorial"
             android:parentActivityName=".TutorialActivity" />
         <activity
             android:name=".ListdataActivity"
-            android:label="Vegetable Planting"
+            android:label="Vegetable"
             android:parentActivityName=".ListdataActivity" />
         <activity
             android:name=".MainActivity"
