@@ -26,28 +26,24 @@
         android:textSize="28dp"
         android:textStyle="bold" />
 
-    <ScrollView
-        android:id="@+id/slider_scrol_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        android:layout_below="@+id/step_title"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="50dp"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="15dp">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="285dp"
+    android:paddingHorizontal="10dp">
         <TextView
             android:id="@+id/step_process"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Sample Description Text"
             android:textSize="16dp"
+            android:padding="5dp"
             android:textColor="@color/design_default_color_on_secondary"
             android:letterSpacing=".05"
             android:textStyle="normal"
             android:textFontWeight="500"/>
+</ScrollView>
 
-    </ScrollView>
 
 </RelativeLayout>

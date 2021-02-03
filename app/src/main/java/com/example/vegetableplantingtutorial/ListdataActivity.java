@@ -3,6 +3,8 @@ package com.example.vegetableplantingtutorial;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -77,7 +79,15 @@ public class ListdataActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View v) {
-                startPlanting();
+                saveData();
+
+                String plantId = txtid.getText().toString();
+                Bundle bundle = new Bundle();
+                bundle.putString(EXTRA_VEGETABLE_ID, plantId);
+// set Fragmentclass Arguments
+                VegetablesFragment vegetablesFragment = new VegetablesFragment();
+                vegetablesFragment.setArguments(bundle);
+
             }
         });
 
@@ -103,12 +113,15 @@ public class ListdataActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void startPlanting() {
 
-        saveData();
-
-        String plantId = txtid.getText().toString();
-        Intent intent = new Intent(this, PlannerActivity.class);
-        intent.putExtra(EXTRA_VEGETABLE_ID, plantId);
-        startActivity(intent);
+//        saveData();
+//        String plantId = txtid.getText().toString();
+//        Intent intent = new Intent(this, PlanFragment.class);
+//        intent.putExtra(EXTRA_VEGETABLE_ID, plantId);
+//        startActivity(intent);
+    }
+    public void openPlan(){
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                new PlanFragment()).commit();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.N)

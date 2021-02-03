@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".PlannerActivity"
-            android:label="My Plants"
+            android:label="My Plans"
             android:parentActivityName=".PlannerActivity"/>
         <activity
             android:name=".CategoryActivity"

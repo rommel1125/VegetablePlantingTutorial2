@@ -2,6 +2,7 @@ package com.example.vegetableplantingtutorial;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -89,26 +91,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_category:
-                openCategoryActivity();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new CategoryFragment()).commit();
                 break;
 
             case R.id.nav_plan:
-                openPlannerActivity();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new PlanFragment()).commit();
                 break;
 
 //            case R.id.nav_settings:
 //                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
 //                break;
             case R.id.nav_about:
-                Toast.makeText(this, "About Us", Toast.LENGTH_SHORT).show();
+                Aboutus();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
-
     @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
@@ -130,6 +131,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void openPlannerActivity() {
         Intent intent = new Intent(this, PlannerActivity.class);
         startActivity(intent);
+    }
+    public void Aboutus(){
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("Vegetable Planting Tutorial")
+                .setMessage("\nVersion 1.0\n\nPROGRAMMER: Frogoso, Rommel John \n\nDESIGN: Vidal, Magen David\nGonzal Anthony James\n\nDOCUMENTS: Ferrer, Brian Charles\nBaritua, Steven John")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                })
+                .show();
     }
 
 }

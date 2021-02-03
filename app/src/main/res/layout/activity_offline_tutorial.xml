@@ -11,18 +11,20 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slider_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="550dp"/>
 
-    <LinearLayout
-        android:id="@+id/slider_dots_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/slider_view_pager"
-        android:layout_centerHorizontal="true"
-        android:layout_marginHorizontal="70dp"
-        android:orientation="horizontal"
-        android:textAlignment="center">
-
-    </LinearLayout>
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/worm_dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            app:dotsColor="@color/black"
+            app:dotsCornerRadius="4dp"
+            app:dotsSize="7.5dp"
+            app:dotsSpacing="2sp"
+            app:dotsStrokeColor="@color/white"
+            app:dotsStrokeWidth="2dp" />
 
 </RelativeLayout>

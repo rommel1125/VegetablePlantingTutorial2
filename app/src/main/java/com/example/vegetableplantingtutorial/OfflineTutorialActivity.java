@@ -12,16 +12,21 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.denzcoskun.imageslider.adapters.ViewPagerAdapter;
+import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
+
+import java.util.ArrayList;
+
 public class OfflineTutorialActivity extends AppCompatActivity {
 
-    private ViewPager sliderViewPager;
-    private LinearLayout dotsLinearLayout;
+    private ViewPager viewPager;
+    private WormDotsIndicator wormDotsIndicator;
 
     // White dots indicator
     private TextView[] dots;
-
+    public ArrayList<PlantingStep> steps;
     private String vegetableId;
-    private SliderAdapter sliderAdapter;
+    private SliderAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,14 +36,16 @@ public class OfflineTutorialActivity extends AppCompatActivity {
         Intent intent = getIntent();
         vegetableId = intent.getStringExtra(ListdataActivity.EXTRA_VEGETABLE_ID);
 
-        sliderViewPager = findViewById(R.id.slider_view_pager);
-        dotsLinearLayout = findViewById(R.id.slider_dots_layout);
+        viewPager = findViewById(R.id.slider_view_pager);
+        wormDotsIndicator = findViewById(R.id.worm_dots_indicator);
+//        PlantingStepController con = new PlantingStepController(this);
+//        steps = con.getPlantingStep(vegetableId);
 
-        sliderAdapter = new SliderAdapter(this, vegetableId);
-        sliderViewPager.setAdapter(sliderAdapter);
+        adapter = new SliderAdapter(this,vegetableId);
+        viewPager.setAdapter(adapter);
+        wormDotsIndicator.setViewPager(viewPager);
 
     }
-
 //    public void addDotsIndicator() {
 //        TextView[] dots = new TextView[4];
 //
