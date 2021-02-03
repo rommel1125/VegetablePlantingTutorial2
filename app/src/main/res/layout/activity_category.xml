@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F6F6F6"
+    android:background="#B4D3B2"
     tools:context=".CategoryActivity">
 
     <com.google.android.material.tabs.TabLayout

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F6F6F6"
+    android:background="#B4D3B2"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     tools:context=".ListdataActivity"
     android:id="@+id/listDataMainLayout">
