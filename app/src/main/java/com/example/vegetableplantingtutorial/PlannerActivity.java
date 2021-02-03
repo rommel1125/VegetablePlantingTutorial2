@@ -3,9 +3,11 @@ package com.example.vegetableplantingtutorial;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
@@ -16,6 +18,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -72,6 +75,28 @@ public class PlannerActivity extends AppCompatActivity {
 
     }
 
+    //PRESS AND HOLD planner item to delete
+    public void deleteData(){
+        plannerListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                final int which_item = position;
+                new AlertDialog.Builder(PlannerActivity.this)
+                        .setTitle("Are you sure ?")
+                        .setMessage("Do you want to delete this item")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        })
+                        .setNegativeButton("No",null)
+                        .show();
+                return true;
+            }
+        });
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void loadData() {
 
@@ -114,7 +139,7 @@ public class PlannerActivity extends AppCompatActivity {
                 Toast.makeText(this, "No Data in sharedPreferences", Toast.LENGTH_SHORT).show();
             }
             else {
-                Toast.makeText(this, gardens.get(0).getHarvestDate(), Toast.LENGTH_SHORT).show();
+
             }
 
         }
