@@ -49,24 +49,42 @@ public class ClickItemPlan extends AppCompatActivity {
         String date = intent.getStringExtra("date");
         String hdate = intent.getStringExtra("harvestdate");
         if (name.equals("Eggplant\n(Talong)")) {
-            imageViewplan.setImageResource(R.drawable.eggplant1);
-        } else if (name.equals("Tomato\n(Kamatis)")) {
+            imageViewplan.setImageResource(R.drawable.eggplant2);
+        }
+
+        else if (name.equals("Tomato\n(Kamatis)")) {
             imageViewplan.setImageResource(R.drawable.tomato1);
-        } else if (name.equals("Cabbage\n(Repolyo)")) {
+        }
+
+        else if (name.equals("Cabbage\n(Repolyo)")) {
             imageViewplan.setImageResource(R.drawable.cabbage1);
-        } else if (name.equals("String beans\n(Sitaw)")) {
+        }
+
+        else if (name.equals("String Beans\n(Sitaw)")) {
             imageViewplan.setImageResource(R.drawable.sitaw1);
-        } else if (name.equals("Squash\n(Kalabas)")) {
+        }
+
+        else if (name.equals("Squash\n(Kalabas)")) {
             imageViewplan.setImageResource(R.drawable.kalabasa1);
-        } else if (name.equals("Moringa Leaves\n(Malunggay)")) {
+        }
+
+        else if (name.equals("Moringa Leaves\n(Malunggay)")) {
             imageViewplan.setImageResource(R.drawable.malunggay1);
-        } else if (name.equals("Water Spinach\n(Kangkong)")) {
+        }
+
+        else if (name.equals("Water Spinach\n(Kangkong)")) {
             imageViewplan.setImageResource(R.drawable.kangkong1);
-        } else if (name.equals("Lettuce\n(Letsugas)")) {
+        }
+
+        else if (name.equals("Lettuce\n(Letsugas)")) {
             imageViewplan.setImageResource(R.drawable.lettuce1);
-        } else if (name.equals("Bottle gourd\n(Upo)")) {
+        }
+
+        else if (name.equals("Bottle gourd\n(Upo)")) {
             imageViewplan.setImageResource(R.drawable.upo1);
-        } else {
+        }
+
+        else {
             imageViewplan.setImageResource(R.drawable.ampalaya1);
         }
         vegePlanname.setText(name);
