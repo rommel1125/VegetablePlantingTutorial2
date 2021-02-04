@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_vege_plant_round"
@@ -12,6 +13,16 @@
         android:roundIcon="@mipmap/ic_vege_plant_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VegetablePlantingTutorial">
+<!--        <activity-->
+<!--            android:name=".ClickItemPlan"-->
+<!--            android:label="Vegetable"-->
+<!--            android:parentActivityName=".ClickItemPlan">-->
+<!--        </activity>-->
+        <activity
+            android:name=".ClickItemPlan"
+            android:label="Vegetable"
+            android:parentActivityName=".ClickItemPlan">
+        </activity>
         <activity
             android:name=".EmptyActivity"
             android:label="My Plants"
@@ -20,7 +31,7 @@
         <activity
             android:name=".PlannerActivity"
             android:label="My Plans"
-            android:parentActivityName=".PlannerActivity"/>
+            android:parentActivityName=".PlannerActivity" />
         <activity
             android:name=".CategoryActivity"
             android:label="Category"

@@ -3,6 +3,7 @@ package com.example.vegetableplantingtutorial;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -47,6 +48,7 @@ public class ListdataActivity extends AppCompatActivity {
     private static final String PREFS_NAME = "shared_prefs";
     private static final String PREFS_DATA = "shared_data";
     private static final String DATE_FORMAT = "MM/dd/yyyy";
+    Toolbar toolbar1;
 
     TextView name,des, txtid;
     ImageView image;
@@ -59,6 +61,9 @@ public class ListdataActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listdata);
+        toolbar1 = findViewById(R.id.action_bar);
+        setSupportActionBar(toolbar1);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         name = findViewById(R.id.listdata);

@@ -8,7 +8,9 @@ import android.content.res.Resources;
 import android.icu.util.Calendar;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -36,7 +38,7 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class PlanFragment extends Fragment {
     ListView plannerListView;
-
+    TextView planner_row_vegetable_name, planner_dates;
     ArrayList<Garden> gardens;
 
     String plantName[];
@@ -67,7 +69,9 @@ public class PlanFragment extends Fragment {
 //        }
 
         loadData();
+        planner_row_vegetable_name = view.findViewById(R.id.planner_row_vegetable_name);
 
+        planner_dates = view.findViewById(R.id.planner_dates);
         plannerListView = view.findViewById(R.id.planner_list_view);
 
         if(gardens != null) {
@@ -75,21 +79,48 @@ public class PlanFragment extends Fragment {
             plannerListView.setAdapter(adapter);
         }
         else {
-            getChildFragmentManager().beginTransaction().replace(R.id.fragment_container,
+            getFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new EmptyFragment()).commit();
         }
+        registerForContextMenu(plannerListView);
 
-        plannerListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        plannerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                final int which_item = position;
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent intent = new Intent(getActivity(), ClickItemPlan.class);
+                    intent.putExtra("name",plantName[position]);
+                    intent.putExtra("date",sDate[position]);
+                    intent.putExtra("harvestdate",hDate[position]);
+                    startActivity(intent);
+            }
+        });
+        return view;
+    }
+    public void viewPlan(){
+
+
+
+    }
+
+    @Override
+    public void onCreateContextMenu(@NonNull ContextMenu menu, @NonNull View v, @Nullable ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        getActivity().getMenuInflater().inflate(R.menu.menu_option, menu);
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.delete:
+                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+                int index = info.position;
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Are you sure ?")
                         .setMessage("Do you want to delete this item")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                removeData(position);
+                                removeData(index);
                                 loadData();
                                 refreshActivity();
                             }
@@ -97,11 +128,26 @@ public class PlanFragment extends Fragment {
                         .setNegativeButton("No",null)
                         .show();
                 return true;
+            case R.id.view:
+                AdapterView.AdapterContextMenuInfo info2 = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+                int index1 = info2.position;
+                Intent intent = new Intent(getActivity(), ClickItemPlan.class);
+                intent.putExtra("name",plantName[index1]);
+                intent.putExtra("date",sDate[index1]);
+                intent.putExtra("harvestdate",hDate[index1]);
+                startActivity(intent);
+//                Intent intent = new Intent(getActivity(), ClickItemPlan.class);
+//                startActivity(intent);
+            default:
+                return super.onContextItemSelected(item);
             }
-        });
-        return view;
     }
-    private void removeData(int position) {
+    public void openClickitem(){
+        Intent intent = new Intent(getActivity(), ClickItemPlan.class);
+        startActivity(intent);
+    }
+
+    private int removeData(int position) {
 
         try {
 
@@ -118,7 +164,7 @@ public class PlanFragment extends Fragment {
         catch(Exception e) {
             Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_LONG);
         }
-
+        return position;
     }
     private void refreshActivity() {
         getFragmentManager().beginTransaction().replace(R.id.fragment_container,

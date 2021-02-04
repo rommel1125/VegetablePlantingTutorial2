@@ -1,7 +1,8 @@
 package com.example.vegetableplantingtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -21,6 +22,7 @@ public class OfflineTutorialActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private WormDotsIndicator wormDotsIndicator;
+    private Toolbar toolbar;
 
     // White dots indicator
     private TextView[] dots;
@@ -31,6 +33,9 @@ public class OfflineTutorialActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offline_tutorial);
+        toolbar = findViewById(R.id.actionbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();

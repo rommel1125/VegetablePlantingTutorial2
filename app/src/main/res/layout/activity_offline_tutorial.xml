@@ -5,11 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B4D3B2"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     tools:context=".OfflineTutorialActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#abab9a"
+        android:elevation="4dp"
+        app:title="Tutorial"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light" >
+
+    </androidx.appcompat.widget.Toolbar>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slider_view_pager"
+        android:layout_marginTop="55dp"
         android:layout_width="match_parent"
         android:layout_height="550dp"/>
 
