@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void Aboutus(){
         new AlertDialog.Builder(MainActivity.this)
                 .setTitle("Vegetable Planting Tutorial")
-                .setMessage("\nVersion 1.0\n\nPROGRAMMER: Frogoso, Rommel John \n\nDESIGN: Vidal, Magen David\nGonzal Anthony James\n\nDOCUMENTS: Ferrer, Brian Charles\nBaritua, Steven John")
+                .setMessage("\nVersion 1.0\n\nPROGRAMMER: Frogoso, Rommel John \n\nDESIGN: Vidal, Magen David\nGonzal, Anthony James\n\nDOCUMENTS: Ferrer, Brian Charles\nBaritua, Steven John")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
