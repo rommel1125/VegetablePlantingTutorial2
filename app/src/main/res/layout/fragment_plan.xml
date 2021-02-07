@@ -6,7 +6,16 @@
     android:layout_height="match_parent"
     android:background="#B4D3B2">
 
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="12/12/2020"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
     <ListView
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/planner_list_view">

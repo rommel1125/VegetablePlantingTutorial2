@@ -33,12 +33,13 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 
 import static android.content.Context.MODE_PRIVATE;
 
 public class PlanFragment extends Fragment {
     ListView plannerListView;
-    TextView planner_row_vegetable_name, planner_dates;
+    TextView planner_row_vegetable_name, planner_dates,textDate;
     ArrayList<Garden> gardens;
 
     String plantName[];
@@ -70,9 +71,17 @@ public class PlanFragment extends Fragment {
 
         loadData();
         planner_row_vegetable_name = view.findViewById(R.id.planner_row_vegetable_name);
-
+        textDate = view.findViewById(R.id.textDate);
         planner_dates = view.findViewById(R.id.planner_dates);
         plannerListView = view.findViewById(R.id.planner_list_view);
+
+        Date c = Calendar.getInstance().getTime();
+
+        SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+        String formattedDate = df.format(c);
+
+        textDate.setText(formattedDate);
+
 
         if(gardens != null) {
             CustomAdapter adapter = new CustomAdapter(getActivity(), plantName, harvestDate, imageName, sDate, hDate);
@@ -95,11 +104,6 @@ public class PlanFragment extends Fragment {
             }
         });
         return view;
-    }
-    public void viewPlan(){
-
-
-
     }
 
     @Override
@@ -259,16 +263,16 @@ public class PlanFragment extends Fragment {
         String date[];
         String imageName[];
         String plantedDate[];
-        String harvesDate[];
+        String harvestDate[];
 
-        public CustomAdapter(Context context, String plantName[], String date[], String imageName[], String plantedDate[], String harvesDate[]) {
+        public CustomAdapter(Context context, String plantName[], String date[], String imageName[], String plantedDate[], String harvestDate[]) {
             super(context, R.layout.planner_row, R.id.planner_row_vegetable_name, plantName);
             this.context = context;
             this.plantName = plantName;
             this.date = date;
             this.imageName = imageName;
             this.plantedDate = plantedDate;
-            this.harvesDate = harvesDate;
+            this.harvestDate = harvestDate;
         }
 
         @NonNull
@@ -285,7 +289,7 @@ public class PlanFragment extends Fragment {
 
             name.setText(plantName[position]);
             hDate.setText(date[position]);
-            dates.setText(plantedDate[position] + " - " + harvesDate[position]);
+            dates.setText(plantedDate[position] + " - " + harvestDate[position]);
 
             Resources resource = this.context.getResources();
             final int rId = resource.getIdentifier(imageName[position], "drawable", context.getPackageName());

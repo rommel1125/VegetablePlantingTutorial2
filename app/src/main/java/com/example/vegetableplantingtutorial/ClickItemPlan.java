@@ -23,7 +23,7 @@ public class ClickItemPlan extends AppCompatActivity {
     Toolbar toolbar;
     TextView vegePlanname, dateplan, harvest1;
     ImageView imageViewplan;
-    Button add;
+    Button addToCalendar;
 
     private static final String DATE_FORMAT = "MM/dd/yyyy";
 
@@ -37,7 +37,7 @@ public class ClickItemPlan extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        add = findViewById(R.id.addToCalendar);
+        addToCalendar = findViewById(R.id.addToCalendar);
         vegePlanname = findViewById(R.id.vegeNameplan);
         imageViewplan = findViewById(R.id.imageViewplan);
         dateplan = findViewById(R.id.dateplan);
@@ -91,7 +91,7 @@ public class ClickItemPlan extends AppCompatActivity {
         dateplan.setText("" + date + " - " + hdate);
         harvest1.setText(hdate);
 
-        add.setOnClickListener(new View.OnClickListener() {
+        addToCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (!vegePlanname.getText().toString().isEmpty()) {
