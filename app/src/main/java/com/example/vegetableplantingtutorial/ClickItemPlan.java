@@ -94,24 +94,26 @@ public class ClickItemPlan extends AppCompatActivity {
         addToCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!vegePlanname.getText().toString().isEmpty()) {
-
-                    Intent intent = new Intent(Intent.ACTION_INSERT)
-                            .setData(CalendarContract.Events.CONTENT_URI)
-                            .putExtra(CalendarContract.Events.TITLE, "Harvest " + vegePlanname.getText().toString())
-                            .putExtra(CalendarContract.Events.ALL_DAY, true)
-                            .putExtra(CalendarContract.Events.DTSTART, harvest1.getText().toString());
-
-                    if (intent.resolveActivity(getPackageManager()) != null){
-                        startActivity(intent);
-                    }
-                    else{
-                        Toast.makeText(ClickItemPlan.this,"There is no app can support this action",Toast.LENGTH_SHORT).show();
-                    }
-                }
-                else{
-                    Toast.makeText(ClickItemPlan.this,"Walang laman",Toast.LENGTH_SHORT).show();
-                }
+//                if (!vegePlanname.getText().toString().isEmpty()) {
+//
+//                    Intent intent = new Intent(Intent.ACTION_INSERT)
+//                            .setData(CalendarContract.Events.CONTENT_URI)
+//                            .putExtra(CalendarContract.Events.TITLE, "Harvest " + vegePlanname.getText().toString())
+//                            .putExtra(CalendarContract.Events.ALL_DAY, true)
+//                            .putExtra(CalendarContract.Events.DTSTART, harvest1.getText().toString());
+//
+//                    if (intent.resolveActivity(getPackageManager()) != null){
+//                        startActivity(intent);
+//                    }
+//                    else{
+//                        Toast.makeText(ClickItemPlan.this,"There is no app can support this action",Toast.LENGTH_SHORT).show();
+//                    }
+//                }
+//                else{
+//                    Toast.makeText(ClickItemPlan.this,"Walang laman",Toast.LENGTH_SHORT).show();
+//                }
+                Intent intent = new Intent(ClickItemPlan.this, CalendarActivity.class);
+                startActivity(intent);
             }
         });
     }
