@@ -113,6 +113,8 @@ public class ClickItemPlan extends AppCompatActivity {
 //                    Toast.makeText(ClickItemPlan.this,"Walang laman",Toast.LENGTH_SHORT).show();
 //                }
                 Intent intent = new Intent(ClickItemPlan.this, CalendarActivity.class);
+                intent.putExtra("date", date);
+                intent.putExtra("name",name);
                 startActivity(intent);
             }
         });

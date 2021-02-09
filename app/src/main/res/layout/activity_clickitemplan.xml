@@ -70,7 +70,7 @@
             android:id="@+id/addToCalendar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add to Calendar"/>
+            android:text="VIEW CALENDAR"/>
         </LinearLayout>
     </LinearLayout>
 

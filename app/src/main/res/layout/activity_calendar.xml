@@ -22,18 +22,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
+        android:orientation="horizontal">
 
         <CalendarView
             android:id="@+id/calendar_view"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="350dp"
             android:theme="@style/CalenderViewCustom"
             android:dateTextAppearance="@style/CalenderViewDateCustomText"
             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
             android:minDate="01/01/2000"
             android:maxDate="12/31/2100"/>
+        <TextView
+            android:id="@+id/nameVegetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="1dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,5 +57,9 @@
             android:layout_height="50dp"
             android:text="ADD note"/>
     </LinearLayout>
+    <ListView
+        android:id="@+id/listNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

@@ -75,13 +75,6 @@ public class PlanFragment extends Fragment {
         planner_dates = view.findViewById(R.id.planner_dates);
         plannerListView = view.findViewById(R.id.planner_list_view);
 
-        Date c = Calendar.getInstance().getTime();
-
-        SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
-        String formattedDate = df.format(c);
-
-        textDate.setText(formattedDate);
-
 
         if(gardens != null) {
             CustomAdapter adapter = new CustomAdapter(getActivity(), plantName, harvestDate, imageName, sDate, hDate);

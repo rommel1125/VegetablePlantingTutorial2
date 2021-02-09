@@ -25,11 +25,13 @@
         <activity
             android:name=".ClickItemPlan"
             android:label="Vegetable"
-            android:parentActivityName=".ClickItemPlan"></activity>
+            android:parentActivityName=".ClickItemPlan">
+        </activity>
         <activity
             android:name=".EmptyActivity"
             android:label="My Plants"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity">
+        </activity>
         <activity
             android:name=".PlannerActivity"
             android:label="My Plans"
